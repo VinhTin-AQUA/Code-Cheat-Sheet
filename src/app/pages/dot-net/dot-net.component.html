@@ -1,0 +1,17 @@
+
+<div class="flex">
+    <div class="">
+        <app-side-bar [showSidebar]="showSidebar"></app-side-bar>
+    </div>
+
+    <div class="flex-1">
+        <div>
+            <app-header (dataEmitter)="receiveData($event)" ></app-header>
+        </div>
+
+        <div>
+
+            <div class="p-2" [innerHTML]="content"></div>
+        </div>
+    </div>
+</div>

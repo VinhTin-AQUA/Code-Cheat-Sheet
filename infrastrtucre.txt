@@ -7,11 +7,9 @@ gom nhóm
 		Đọc ghi dữ liệu JSON ra đối tượng và ngược lại.docx
 		đường dẫn đến thư mục đặc biệt của hệ thống.txt
 		Lấy tất cả File và thư mục con trong thư mục cha.docx
-		
 		tao SLUG tu chuoi co san.docx
 		xóa tất cả file trong thư mục.txt
 		Indexer_dinh_nghia_index.cs
-		
 		2_tac_vu_dung_cho_tac_vu_khac_chay.cs
 		async.cs
 		kha_nhau_giua_Task.Delay_va_Thread.Sleep.cs
@@ -19,16 +17,13 @@ gom nhóm
 		Task.WhenAny.cs
 		thuc_thi_khi_dang_doi.cs
 		thuc_thi_tuan_tu_sau_khoang_thoi_gian.cs
-		
 		chỉ lấy phần quan trọng trong stack trace.txt
 		Hosted service – dịch vụ tự động chạy sau khi start ứng dụng.docx
 		Triển khai Background service chạy tự động.docx
-		
 		chuyển ảnh sang mảng bytes.docx
 		Chuyển mảng byte về ảnh.docx
 		Đọc mảng bytes từ file.docx
 		Ghi mảng byte vào file.docx
-		
 		build .NET app.txt
 		HttpClient.docx
 		log chữ có máu ra console.txt
@@ -214,6 +209,8 @@ Angular (đưa lại lên drive)
 		Toast Notifications.docx
 		tw-elements components.docx
 
+    components
+        menu
 Bot
 	Bot Telegram.docx
 	

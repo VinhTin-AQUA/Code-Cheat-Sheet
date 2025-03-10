@@ -1,7 +1,7 @@
 export const items = [
 	{
 		name: '.NET',
-		url: '',
+		url: '/dot-net',
 		color: '#512BD4',
 	},
 	{

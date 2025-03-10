@@ -3,7 +3,7 @@
 		<div class="p-4">
 			<div class="flex flex-wrap gap-3">
 				@for (item of items; track $index) {
-				<a class="item" style="--color: {{ item.color }}">
+				<a [routerLink]="item.url" class="item" style="--color: {{ item.color }}">
 					<span class="hover">
 						<span class="txt">{{ item.name }}</span>
 					</span>

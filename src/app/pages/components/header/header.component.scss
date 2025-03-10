@@ -1,0 +1,59 @@
+#sticky-nav {
+	border-radius: 10px;
+	position: sticky;
+	top: 0px;
+}
+
+.toggle-sidebar-btn {
+	position: relative;
+	display: inline-block;
+	width: 24px;
+	height: 24px;
+	margin: auto;
+	text-align: center;
+}
+.toggle-sidebar-btn .bar {
+	display: block;
+	position: absolute;
+	left: 0;
+	top: 15px;
+	width: inherit;
+	height: 2px;
+	background: oklch(0.21 0.006 285.885);;
+	transition: transform 0.3s ease, top 0.3s ease, left 0.3s ease;
+	-webkit-transition: transform 0.3s ease, top 0.3s ease, left 0.3s ease;
+	-moz-transition: transform 0.3s ease, top 0.3s ease, left 0.3s ease;
+}
+.toggle-sidebar-btn .bar:nth-child(1) {
+	top: 5px;
+}
+.toggle-sidebar-btn .bar:nth-child(2) {
+	opacity: 1;
+	transition: opacity 0.1s ease 0.125s, left 0.2s ease;
+	-webkit-transition: opacity 0.1s ease 0.125s, left 0.2s ease;
+	-moz-transition: opacity 0.1s ease 0.125s, left 0.2s ease;
+}
+.toggle-sidebar-btn .bar:nth-child(3) {
+	top: 25px;
+}
+.toggle-sidebar-btn.is-open .bar:nth-child(1) {
+	top: 15px;
+	transform: translateY(0) rotate(45deg);
+	-webkit-transform: translateY(0) rotate(45deg);
+	-moz-transform: translateY(0) rotate(45deg);
+}
+.toggle-sidebar-btn.is-open .bar:nth-child(2) {
+	opacity: 0;
+	transition-delay: 0s;
+	-webkit-transition-delay: 0s;
+	-moz-transition-delay: 0s;
+}
+.toggle-sidebar-btn.is-open .bar:nth-child(3) {
+	top: 15px;
+	transform: translateY(0) rotate(-45deg);
+	-webkit-transform: translateY(0) rotate(-45deg);
+	-moz-transform: translateY(0) rotate(-45deg);
+}
+.toggle-sidebar-btn:hover .bar:nth-child(2) {
+	left: 5px;
+}
