@@ -1,0 +1,405 @@
+gom nhóm
+
+.NET
+	C-Sharp
+		chuyển định dạng datetimeoffset.txt
+		Chuyển đổi chuỗi ký tự Unicode sang chuỗi không dấu.docx
+		Đọc ghi dữ liệu JSON ra đối tượng và ngược lại.docx
+		đường dẫn đến thư mục đặc biệt của hệ thống.txt
+		Lấy tất cả File và thư mục con trong thư mục cha.docx
+		
+		tao SLUG tu chuoi co san.docx
+		xóa tất cả file trong thư mục.txt
+		Indexer_dinh_nghia_index.cs
+		
+		2_tac_vu_dung_cho_tac_vu_khac_chay.cs
+		async.cs
+		kha_nhau_giua_Task.Delay_va_Thread.Sleep.cs
+		Task.WhenALL.cs
+		Task.WhenAny.cs
+		thuc_thi_khi_dang_doi.cs
+		thuc_thi_tuan_tu_sau_khoang_thoi_gian.cs
+		
+		chỉ lấy phần quan trọng trong stack trace.txt
+		Hosted service – dịch vụ tự động chạy sau khi start ứng dụng.docx
+		Triển khai Background service chạy tự động.docx
+		
+		chuyển ảnh sang mảng bytes.docx
+		Chuyển mảng byte về ảnh.docx
+		Đọc mảng bytes từ file.docx
+		Ghi mảng byte vào file.docx
+		
+		build .NET app.txt
+		HttpClient.docx
+		log chữ có máu ra console.txt
+		Lưu ảnh.docx
+		lưu ảnh từ link img.txt
+		So sánh Task và Thread.docx
+		
+	Clean Architecture (link to drive)
+		
+	Caching (link to drive)
+				
+	Deploy (Link to drive)
+	
+	NET CORE
+		
+		Chung
+			DataAnnotation.txt
+			Migration.docx
+			Custom middleware.docx
+		
+		NET CORE MVC 
+			Active menu item trong layout.docx
+			Áp dụng css cho từng View cụ thể.docx
+			chuyển hướng đến controller trong Area.txt
+			Pagination.docx
+			Sử dụng return Url.docx
+			Thêm Font awesome vào MVC.docx
+			Truyền dữ liệu sang partial View.docx
+			Truyền dữ liệu từ View về controll mà không cần tạo model.docx
+			Upload file trong MVC.docx
+			Xử lý returnUrl trả về route của cùng 1 controller.docx
+			_binding_du_lieu_tu_the_select.docx
+			_mot_so_ky_thuat_khac.docx
+			AddSingleton.docx
+			code_dam_bao_database_migration.txt
+			Code–Generator.docx
+			đăng ký và lấy giá trị từ appsettings.docx
+			gọi dịch vụ phát sinh dữ liệu mẫu.txt
+			Hien thi noi dung trong View khong bi Encode.docx
+			key_service.jpg
+			Lấy đường dẫn thư mục webroot và đường dẫn thư mục dự án.docx
+			Lenh_co_ban_CLI.docx
+		
+			PAGINATION_NetCore.pdf
+			paht sinh du lieu ao su dung SeedData.pdf
+			phat_sinh_URL.docx
+			Thiết lập file tĩnh.docx
+			Tích hợp và triển khai đánh giá hiệu xuất trong ứng dụng MVC.docx
+			xac_thuc_giao_thuc_https.txt
+			
+			
+			_Dich_vu_gui_mail_SMS.docx
+			_ViewData – ViewBag – TempData.pdf
+			1_Tong_quan_mo_hinh_MVC.pdf
+			2_Tao_Route_anh_xa_Url_vao_Controller-Action_Area_trong_MVC.pdf
+			3_Tich_hop_Entity_Framework_lam_viec_voi_SQL_Server.docx
+			4_Model_BindingValidation_tao_trang_lien_he_su_dung_Gulp_CSS.docx
+			5 Tich hop Identity - phan quyen truy cap - Xac thuc 2 yeu to.docx
+			6 tich_hop_Html_editor_Summernotes.docx
+			7 tich_hop_thu_vien_quan_ly_file_ElFinder.docx
+			
+		NET API
+			Custom lỗi ModelState gửi đến client thành mảng chuỗi.docx
+			Đăng nhập GG API.docx
+			Dịch vụ gửi mail API.docx
+			Enable CORS.docx
+			Form Request.docx
+			JWT - Service.docx
+			Khắc phục spam API bị trùng dữ liệu.docx
+			Upload File API.docx
+		
+	Packages - Libraries
+		_GraphQL - HotChocolate (link to drive)
+					
+		_Identity (link to drive)
+		
+		AutoMapper 
+			code sử dụng
+		
+		Dapper (link to drive)
+		Entity Framework (link to drive
+		Firebase (link to drive)
+		For WPF (link to drive)
+		Logging (link to drive)
+		MinIO 9link to drive)
+		Mongo (link to drive)
+		PDF (link to drive)
+		SignalIR 9link to drive) 
+		BOGUS - phat sinh du lieu ao su dung thu vien.docx
+		CLoudinary API in .NET.docx
+		Hangfire.docx		Selenium.docx
+		Swagger.docx
+		Triển khai RabbitMQ trong .NET API.docx
+		WebSocket In NET.docx
+		
+		
+	Techs
+		Rate limiting.docx
+		
+		
+	Testing
+		X Unit.docx
+		
+	WPF (link to drive)
+	
+	
+
+Angular (đưa lại lên drive)
+	fast code
+		1 thẻ option trong select chứa 2 giá trị trong form Group.docx
+		Chạy ứng dụng front-end trên thư mục build bằng docker compose.docx
+		chỉnh định chính xác active url.txt
+		click vào khoản trống để đóng menu.txt
+		các hình ảnh hiển thị đều nhau trong grid-tailwind-css.txt
+		Dark Mode.docx
+		debounce.txt
+		deploy_angular_app_on_github_page.txt
+		Hiển thị nội dung bên trong thẻ component.docx
+		kiêm tra nhập chữ tronginput.txt
+		Kiểm tra token hết hạn.docx
+		lấy attribute data-id.txt
+		lấy data-id của thẻ option được chọn trong select.txt
+		ngăn chặn nhập e trong input number.txt
+		provide animation module.txt
+		Render html từ phương thức ts.docx
+		Run angular app with ssl.docx
+		scroll đến element view child.txt
+		style cho element ref.txt
+		Sử dụng ViewChild để tham chiếu tới thẻ html.docx
+		tham số event trong sự kiện.txt
+		Thiết lập title và url động theo đối tượng.docx
+		Truy cập đến 1 phần tử DOM bằng ViewChild.docx
+		Upload files.docx
+		xoa_1_phan_tu_khoi_mang.txt
+		đặt giá trị mặc định Date trong form.txt
+		định dạng hiển thị ngày tháng.txt
+		định dạng ngày tháng.txt
+		
+		
+	Core
+		Apollo client (link to drive)
+		Directive
+			Directive Custom.docx
+		Guard
+			Guard.docx
+		HttpClient
+			HttpClient.docx
+		Interceptors
+			Interceptors.docx
+		layouts
+			Masonry Layout (PinterestLayout).docx
+		Ngrx (link to drive)
+		Pipe
+			PIPE.docx
+		Reactive Form
+			đặt trạng thái dirty của control trong form group.txt
+			Form Validation.docx
+			reset value.txt
+			
+		Routing
+			Bind Route Info to Component Inputs.docx
+			cho phép binding dữ liệu qua route.txt
+			cuộc lên đầu trang khi chuyển sang trang mới.txt
+			Params và Query string URL.docx
+			queryParams and queryParamMap.txt
+			router link activate.txt
+			Routing.docx
+			View transition trong Angular – Hiệu ứng chuyển giữa các pages.docx
+		
+	CLI_Command.txt
+	
+	_libraries
+		Copy to clipboard.docx
+		Echarts angular.docx
+		Export excel file from data.docx
+		jwt-decode.txt
+		Material-ui.txt
+		ng-select.docx
+		ngx-bootstrap.txt
+		Ngx-Quill.docx
+		QR Generator.docx
+		tailwind css.txt
+		Toast Notifications.docx
+		tw-elements components.docx
+
+Bot
+	Bot Telegram.docx
+	
+Docker
+    Command
+
+    Docker compose sample
+        cache_redis.yml
+        NET_Core.yml
+        Sql Server
+        sql_with_volume.yml
+        Nginx
+        kafka
+    
+    Docker file sample
+        react
+        angular
+    
+
+    Angular Dockerize
+        docker-compose.yml
+        dockerfile
+
+    react vite yarn dockerize
+        docker-compose.yml
+        Dockerfile
+
+    Build App with .NET Core và SQL Server (lik to drive)
+
+    .dockerignore
+
+    Volume
+        Bind Mounts with SQL server.docx
+        export volume.txt
+        import volume.txt
+        Restore data.docx
+        volume.txt
+        Voulumes with SQL server.docx
+
+
+ELK (link to drive)
+
+Flutter
+    alert dialog.txt
+    build apk.txt
+    loading.txt
+    mật khẩu ứng dụng, sinh trắc học.txt
+    Navigator.txt
+    permission.txt
+    theo dõi logs ở app release.txt
+    tích hợp firestore database.txt
+    điều chỉnh kích thước của button.txt
+    đưa path của ảnh sau khi chọn ảnh về dạng path thực tế.txt
+
+Jenkins (Link to drive)
+
+
+NestJS
+    dockerize (upload lại lên drive)
+    GraphQL
+        sample mutation
+            create.txt
+        sample query
+            find_all.txt
+            find_one.txt
+            truy vấn lồng nhau.txt
+
+        1 setup GraphQL.docx (link to drive)
+        2 Intergrate TypOrm.docx (link to drive)
+        3 Validation.docx (link to drive)
+        4 Relation.docx (link to drive)
+        5 Subcription.docx (link to drive)
+        6 Mapped Types.docx (link to drive)
+        7 Field midleware.docx (link to drive)
+
+    libraries
+        API Versioning.docx
+        config_env.txt
+        ExcelJS.docx
+        Kafka NestJS.docx
+        MinIO - NestJS.docx
+        puppeteer.docx
+        redis.txt
+        send-mail.txt
+        Swagger.docx
+        Upload file multer.docx
+        Validation.docx
+
+    middleware
+        Global exception filter.docx
+        Middleware catch API.docx
+
+    Mongoose
+        Join sử dụng lookup – nestjs – mongodb.docx
+        mongodb.docx
+        Một số query monogodb - nestjs.docx
+        Populate query – mongoose - nestjs.docx
+        relation.docx
+
+    other
+        decorators.txt
+        Gọi API bên thứ 3 trong nestjs.docx
+        gủi api dưới nền.txt
+        hot_reload.txt
+        Parsing data trong API.docx
+        setup-graphql.txt
+        setup_orm_project.txt
+        Transaction.docx
+        tự động mở trình duyệt swagger sau khi chạy server.txt
+        Xử lý không lưu các thuộc tính không nằm trong DTO.docx
+        Áp dung module cho toàn cục.txt
+        Đọc ghi file.docx
+
+    prisma
+        prisma_migration.txt
+        Prisma-mysql.docx
+
+
+    TypeOrm Mysql
+        1_config.txt
+        2 TypeORM with mysql.docx
+        3 Typeorm relations.docx
+        4 Authentication - PassportJS.docx
+
+
+    websocket
+        Web Socket NestJS + ANGULAR.docx
+
+    Authentication + API + PassportJS + MongoDb + Role Base Access control.docx
+    commands.txt
+
+Nginx
+    Cấu hình nginx với SSL
+        docker-compose.yaml
+        nginx.conf
+    Angular – Docker - NGINX.docx
+    Deploy asp net core api với docker compose và nginx - HTTP.docx
+    FireStore.docx
+    Ngăn chặn subdomain cùng truy cập vào 1 tài nguyên.docx
+    Run Asp Net App with HTTPS in Docker.docx
+    Điều hướng đến các subdomain.docx
+
+
+ngrok
+    Link tải ngrok
+    public port.txt
+
+Python
+    Kafka python.docx
+    requirements.txt
+    setup-python.txt
+
+Redis
+    delete_key.txt
+    làm việc với danh sách.txt
+    làm việc với HASH.txt
+    làm việc với SET.txt
+    redis commands.txt
+    
+SQL
+    alter.sql
+    backup database.sql
+    CASE_WHEN_THEN.sql
+    dateif.sql
+    index.sql
+    lay gia tri -thuoc tinh sau khi insert.txt
+    phan_quyen.sql
+    SET 2 THUOC TINH LAM KHOA CHINH.txt
+    set_default_identity.txt
+    SQL INJECTIOn.sql
+    SQL Tutorials.sql
+    Stored Procedure.sql
+    thu-tu-thuc-hien-lenh-sql.png
+    view.sql
+
+GIT
+    Basic commands
+
+    commit git
+    Using_Git_width_Visual_Studio.docx
+    Chuyển từ ssh sang https.docx
+    sử dụng github trong ubuntu.txt
+
+visual studio (code)
+    Custom theme visual studio.docx
+    Tùy chỉnh VS Code.docx
+
+VPS
+    lỗi liên quan đến mirror.txt
