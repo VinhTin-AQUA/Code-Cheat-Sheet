@@ -2,11 +2,13 @@ export const codes = [
 	{
 		id: 'lay-tat-ca-file-va-thu-muc-con-trong-thu-muc-cha',
 		name: 'Lấy tất cả File và thư mục con trong thư mục cha',
+        language:'csharp',
 		code: `    string[] filePaths = Directory.GetFiles(@"C:\MyDirectory\", "*.*", SearchOption.AllDirectories);`,
 	},
 	{
 		id: 'xoa-tat-ca-file-trong-thu-muc',
 		name: 'Xóa tất cả file trong thư mục',
+        language:'csharp',
 		code: `    using System.IO;
     DirectoryInfo di = new DirectoryInfo(@"C:\example");
     foreach (FileInfo file in di.GetFiles())
@@ -18,6 +20,7 @@ export const codes = [
 	{
 		id: 'xóa toàn bộ file và thư mục con trong thư mục',
 		name: 'xóa toàn bộ file và thư mục con trong thư mục',
+        language:'csharp',
 		code: `    using System.IO;
 
     DirectoryInfo di = new DirectoryInfo(@"C:\example");
@@ -35,6 +38,7 @@ export const codes = [
 	{
 		id: 'chuyen-anh-sang-mang-bytes',
 		name: 'Chuyển ảnh sang mảng bytes',
+        language:'csharp',
 		code: `    static byte[] ImageToByteArray(string imagePath)
     {
         // Đọc hình ảnh thành mảng byte
@@ -52,6 +56,7 @@ export const codes = [
 	{
 		id: 'chuyen-mang-byte-ve-anh',
 		name: 'Chuyển mảng byte về ảnh',
+        language:'csharp',
 		code: `    static void ByteArrayToImage(byte[] byteArray)
     {
         using (var ms = new MemoryStream(byteArray))
@@ -67,6 +72,7 @@ export const codes = [
 	{
 		id: 'doc-mang-bytes-tu-file',
 		name: 'Đọc mảng bytes từ file',
+        language:'csharp',
 		code: `    static byte[] ReadBytesFromFile(string filePath)
     {
         // Đọc mảng byte từ file
@@ -84,6 +90,7 @@ export const codes = [
 	{
 		id: 'ghi-mang-byte-vao-file',
 		name: 'Ghi mảng byte vào file',
+        language:'csharp',
 		code: `    byte[] data = ImageToByteArray("Images/reminder_background.png");
 
     using (FileStream fs = new FileStream("Data/reminder_background.bin", FileMode.Create, FileAccess.Write))
@@ -96,6 +103,7 @@ export const codes = [
 	{
 		id: 'luu-anh-tu-url-anh',
 		name: 'Lưu ảnh từ URL ảnh',
+        language:'csharp',
 		code: `    // URL của API trả về mảng byte
     string apiUrl = "https://your-api-url.com/api/get-image";
 
@@ -104,9 +112,11 @@ export const codes = [
 
     // Tên file bạn muốn lưu
     string fileName = "downloaded_image.jpg";
+    language:'csharp',
 
     // Đường dẫn đầy đủ để lưu file
     string filePath = Path.Combine(downloadsPath, fileName);
+    language:'csharp',
 
     try
     {
@@ -132,6 +142,7 @@ export const codes = [
 	{
 		id: 'luu-anh-tu-api-tra-ve-mang-byte',
 		name: 'Lưu ảnh từ API trả về mảng byte',
+        language:'csharp',
 		code: `    using (var client = new HttpClient())
     {
         client.DefaultRequestHeaders.Add("Authorization", $"Bearer {token}");
@@ -139,6 +150,7 @@ export const codes = [
         {
             { new StringContent(taskId!), "task" },
             { new StringContent(uploadResponse.server_filename), "server_filename" },
+             language:'csharp',
             { new StringContent(scale), "scale" },
         };
         var response = await client.PostAsync(scaleUrl, form);
@@ -146,6 +158,7 @@ export const codes = [
         // Đọc dữ liệu mảng byte từ phản hồi
         byte[] imageBytes = await response.Content.ReadAsByteArrayAsync();
         string filePath = Path.Combine(folderToSaveImages!, uploadResponse.server_filename);
+        language:'csharp',
         // Lưu ảnh vào file
         Console.WriteLine($"Saving..... {filePath}");
         await File.WriteAllBytesAsync(filePath, imageBytes);

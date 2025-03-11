@@ -2,6 +2,7 @@ export const codes = [
     {
 		id: 'chi-lay-phan-quan-trong-trong-stack-trace',
 		name: 'Chỉ lấy phần quan trọng trong stack trace',
+        language: 'csharp',
 		code: `    {
         if (string.IsNullOrEmpty(stackTrace))
         {
@@ -25,6 +26,7 @@ export const codes = [
     {
 		id: 'hosted-service-dich-vu-tu-dong-chay-sau-khi-start-ung-dung',
 		name: 'Hosted service – dịch vụ tự động chạy sau khi start ứng dụng',
+        language: 'csharp',
 		code: `    public class SystemHostedService : IHostedService
     {
         private readonly IServiceProvider serviceProvider;
@@ -54,6 +56,7 @@ export const codes = [
     {
 		id: 'build-net-app',
 		name: 'build .NET app',
+        language: 'csharp',
 		code: `    /* build C# console */ 
 
     // bổ sung các tùy chọn trong .csproj -> PropertyGroup -> 
@@ -83,6 +86,7 @@ export const codes = [
     {
 		id: 'data-annotation',
 		name: 'DataAnnotation',
+        language: 'csharp',
 		code: `    - Set ID tự động tăng
         + model
         [Key]
@@ -104,6 +108,7 @@ export const codes = [
     {
 		id: 'migration',
 		name: 'Migration',
+        language: 'csharp',
 		code: `    // Install packages
     Install-Package Microsoft.EntityFrameworkCore.Tools #Migration
     dotnet add package Microsoft.EntityFrameworkCore.Design #EF Core
@@ -140,6 +145,7 @@ export const codes = [
     {
 		id: 'custom-middleware',
 		name: 'Custom middleware',
+        language: 'csharp',
 		code: `    // Tạo middle ware
     public class ExceptionMiddleware
     {

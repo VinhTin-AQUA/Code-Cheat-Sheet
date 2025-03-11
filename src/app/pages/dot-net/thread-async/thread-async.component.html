@@ -10,7 +10,7 @@
 					</div>
 
 					<div class="code-container">
-						<button class="copy-btn" (click)="copyCode('')">📋 Copy</button>
+						<button class="copy-btn" (click)="copyCode(item.code)">📋 Copy</button>
 						<pre
 							class="p-0"
 						><code style="padding: 0 !important;" class="p-0" [highlight]="item.code" language="csharp"></code></pre>

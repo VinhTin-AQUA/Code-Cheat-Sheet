@@ -57,5 +57,8 @@ export const dotnetMenus = [
 ] as any;
 
 export const angularMenus = [
-    
-]
+    {
+		name: 'Fast codes',
+		url: '/angular-js/fast-code',
+	},
+] as any;

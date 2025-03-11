@@ -2,6 +2,7 @@ export const codes = [
 	{
 		id: 'chuyen-doi-chuoi-ky-tu-unicode-sang-chuoi-khong-dau',
 		name: 'Chuyển đổi chuỗi ký tự Unicode sang chuỗi không dấu',
+		language: 'csharp',
 		code: `    static string RemoveDiacritics(string text)
     {
         string normalizedString = text.Normalize(NormalizationForm.FormD);
@@ -24,6 +25,7 @@ export const codes = [
 	{
 		id: 'tao-slug-tu-chuoi-co-san',
 		name: 'Tạo slug từ chuỗi có sẵn',
+		language: 'csharp',
 		code: `    public static class AppUtilities
     {
         public static string GenerateSlug(string str, bool hierarchical = true)
