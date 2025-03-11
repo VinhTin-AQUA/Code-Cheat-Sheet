@@ -1,11 +1,11 @@
 <div class="flex">
 	<div class="">
-		<app-side-bar [showSidebar]="showSidebar" menuType="dotnet"></app-side-bar>
+		<app-side-bar [showSidebar]="showSidebar" menuType="angular"></app-side-bar>
 	</div>
 
 	<div class="flex-1 overflow-hidden scroll-bar max-h-screen">
 		<div class="sticky-nav z-20">
-			<app-header (dataEmitter)="receiveData($event)" headerType="dotnet"></app-header>
+			<app-header (dataEmitter)="receiveData($event)" headerType="angular"></app-header>
 		</div>
 
 		<div class="relative">

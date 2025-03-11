@@ -1,14 +1,14 @@
 import { Component, ElementRef, ViewChild } from '@angular/core';
-import { HighlightModule } from 'ngx-highlightjs';
 import { codes } from './codes';
+import { HighlightModule } from 'ngx-highlightjs';
 
 @Component({
-	selector: 'app-file-directory',
+	selector: 'app-thread-async',
 	imports: [HighlightModule],
-	templateUrl: './file-directory.component.html',
-	styleUrl: './file-directory.component.scss',
+	templateUrl: './thread-async.component.html',
+	styleUrl: './thread-async.component.scss',
 })
-export class FileDirectoryComponent {
+export class ThreadAsyncComponent {
 	codes: any = codes;
 
 	@ViewChild('contentContainer') contentContainer!: ElementRef;

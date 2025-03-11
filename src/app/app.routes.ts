@@ -9,6 +9,9 @@ export const routes: Routes = [
 		path: 'dot-net',
 		loadChildren: () => import('./pages/dot-net/dotnet.routes').then(r => r.dotnetRoutes),
 	},
-
+    {
+		path: 'angular-js',
+		loadChildren: () => import('./pages/angularjs/angularjs.routes').then(r => r.angularRoutes),
+	},
 	{ path: '**', redirectTo: 'home', pathMatch: 'full' },
 ];

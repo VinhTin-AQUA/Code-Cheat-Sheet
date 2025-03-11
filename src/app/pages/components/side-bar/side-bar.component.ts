@@ -1,12 +1,12 @@
 import { CommonModule } from '@angular/common';
 import { Component, Input } from '@angular/core';
-import { dotnetMenus } from './menus';
+import { angularMenus, dotnetMenus } from './menus';
 import { animate, style, transition, trigger } from '@angular/animations';
-import { RouterLink } from '@angular/router';
+import { RouterLink, RouterLinkActive } from '@angular/router';
 
 @Component({
 	selector: 'app-side-bar',
-	imports: [CommonModule, RouterLink],
+	imports: [CommonModule, RouterLink, RouterLinkActive],
 	templateUrl: './side-bar.component.html',
 	styleUrl: './side-bar.component.scss',
 	animations: [
@@ -21,12 +21,24 @@ import { RouterLink } from '@angular/router';
 })
 export class SideBarComponent {
 	@Input() showSidebar: boolean = true;
-    show = true;
-	dotnetMenus: any = dotnetMenus;
+	@Input() menuType: string = 'dotnet';
+	show = true;
+	menus: any = dotnetMenus;
 
 	constructor() {}
 
 	ngOnInit() {
+		switch (this.menuType) {
+			case 'dotnet':
+				this.menus = dotnetMenus;
+				break;
+			case 'angular':
+				this.menus = angularMenus;
+				break;
+			default:
+				this.menus = dotnetMenus;
+		}
+
 		for (let i of dotnetMenus) {
 			i.showSubMenu = false;
 		}

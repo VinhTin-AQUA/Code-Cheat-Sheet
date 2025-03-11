@@ -3,12 +3,12 @@ import { HighlightModule } from 'ngx-highlightjs';
 import { codes } from './codes';
 
 @Component({
-	selector: 'app-file-directory',
+	selector: 'app-techs',
 	imports: [HighlightModule],
-	templateUrl: './file-directory.component.html',
-	styleUrl: './file-directory.component.scss',
+	templateUrl: './techs.component.html',
+	styleUrl: './techs.component.scss',
 })
-export class FileDirectoryComponent {
+export class TechsComponent {
 	codes: any = codes;
 
 	@ViewChild('contentContainer') contentContainer!: ElementRef;

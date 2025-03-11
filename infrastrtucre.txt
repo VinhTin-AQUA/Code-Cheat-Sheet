@@ -1,6 +1,6 @@
 gom nhóm
 
-.NET
+.NET đưa lên lại drive
 	C-Sharp
 		chuyển định dạng datetimeoffset.txt
 		Chuyển đổi chuỗi ký tự Unicode sang chuỗi không dấu.docx

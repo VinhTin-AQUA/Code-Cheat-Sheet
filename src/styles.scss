@@ -51,7 +51,8 @@ pre {
 	color: #abb2bf; /* Màu chữ */
 	padding: 15px;
 	border-radius: 8px; /* Bo góc mềm mại */
-	overflow-x: auto; /* Cuộn ngang nếu quá dài */
+	// overflow-x: auto; /* Cuộn ngang nếu quá dài */
+    text-wrap: wrap;
 	font-size: 14px;
 	line-height: 1.5;
 	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -67,15 +68,15 @@ pre code {
 	counter-reset: line;
 }
 
-pre code .hljs-line::before {
-	counter-increment: line;
-	content: counter(line);
-	display: inline-block;
-	width: 2em;
-	margin-right: 10px;
-	color: #555;
-	text-align: right;
-}
+// pre code .hljs-line::before {
+// 	counter-increment: line;
+// 	content: counter(line);
+// 	display: inline-block;
+// 	width: 2em;
+// 	margin-right: 10px;
+// 	color: #555;
+// 	text-align: right;
+// }
 
 // pre:hover {
 // 	transform: scale(1.02);

@@ -2,7 +2,6 @@ import { Component } from '@angular/core';
 import { SideBarComponent } from '../components/side-bar/side-bar.component';
 import { HeaderComponent } from '../components/header/header.component';
 import { ActivatedRoute, RouterOutlet } from '@angular/router';
-import { dotnetRouterData } from './data/dotnet.router-data';
 
 @Component({
 	selector: 'app-dot-net',
@@ -17,12 +16,12 @@ export class DotNetComponent {
 	constructor(private activatedRoute: ActivatedRoute) {}
 
 	ngOnInit() {
-		this.activatedRoute.params.subscribe({
-			next: (params: any) => {
-				// console.log(params); // {id: '2', name: 'hoc'}
-				// this.content = dotnetRouterData(params.id);
-			},
-		});
+		// this.activatedRoute.params.subscribe({
+		// 	next: (params: any) => {
+		// 		// console.log(params); // {id: '2', name: 'hoc'}
+		// 		// this.content = dotnetRouterData(params.id);
+		// 	},
+		// });
 	}
 
 	receiveData(data: boolean) {

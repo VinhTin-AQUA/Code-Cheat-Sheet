@@ -6,7 +6,7 @@ export const items = [
 	},
 	{
 		name: 'Angular',
-		url: '',
+		url: '/angular-js',
 		color: '#dd0031',
 	},
 	{

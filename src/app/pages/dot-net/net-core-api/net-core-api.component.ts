@@ -3,12 +3,12 @@ import { HighlightModule } from 'ngx-highlightjs';
 import { codes } from './codes';
 
 @Component({
-	selector: 'app-file-directory',
+	selector: 'app-net-core-api',
 	imports: [HighlightModule],
-	templateUrl: './file-directory.component.html',
-	styleUrl: './file-directory.component.scss',
+	templateUrl: './net-core-api.component.html',
+	styleUrl: './net-core-api.component.scss',
 })
-export class FileDirectoryComponent {
+export class NetCoreAPIComponent {
 	codes: any = codes;
 
 	@ViewChild('contentContainer') contentContainer!: ElementRef;

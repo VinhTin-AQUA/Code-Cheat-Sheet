@@ -1,14 +1,14 @@
 import { Component, ElementRef, ViewChild } from '@angular/core';
 import { HighlightModule } from 'ngx-highlightjs';
-import { codes } from './codes';
+import { codes } from './code';
 
 @Component({
-	selector: 'app-file-directory',
+	selector: 'app-net-core-common',
 	imports: [HighlightModule],
-	templateUrl: './file-directory.component.html',
-	styleUrl: './file-directory.component.scss',
+	templateUrl: './net-core-common.component.html',
+	styleUrl: './net-core-common.component.scss',
 })
-export class FileDirectoryComponent {
+export class NetCoreCommonComponent {
 	codes: any = codes;
 
 	@ViewChild('contentContainer') contentContainer!: ElementRef;

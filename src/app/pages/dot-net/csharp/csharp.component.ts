@@ -1,16 +1,15 @@
 import { Component, ElementRef, ViewChild } from '@angular/core';
 import { HighlightModule } from 'ngx-highlightjs';
-import { codes } from './codes';
+import { codes } from './code';
 
 @Component({
-	selector: 'app-file-directory',
+	selector: 'app-csharp',
 	imports: [HighlightModule],
-	templateUrl: './file-directory.component.html',
-	styleUrl: './file-directory.component.scss',
+	templateUrl: './csharp.component.html',
+	styleUrl: './csharp.component.scss',
 })
-export class FileDirectoryComponent {
+export class CsharpComponent {
 	codes: any = codes;
-
 	@ViewChild('contentContainer') contentContainer!: ElementRef;
 
 	constructor() {}
