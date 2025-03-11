@@ -211,6 +211,7 @@ Angular (đưa lại lên drive)
 
     components
         menu
+        scroll trong trang file directory
 Bot
 	Bot Telegram.docx
 	

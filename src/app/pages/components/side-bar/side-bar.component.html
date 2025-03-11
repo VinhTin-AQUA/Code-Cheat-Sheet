@@ -11,7 +11,7 @@
 		<div class="h-full">
 			<div
 				id="menu-sidebar"
-				class="w-full h-screen py-4 overflow-y-scroll bg-zinc-900 overflow-x-hidden"
+				class="scroll-bar w-full h-screen py-4 overflow-y-scroll bg-zinc-900 overflow-x-hidden"
 			>
 				<ul class="space-y-2 font-medium">
 					@for (item of dotnetMenus; track $index) {
@@ -53,7 +53,7 @@
 						@if(item.showSubMenu) {
 						<ul
 							@submenuAnimation
-							class="space-y-2 transition-all duration-500 overflow-hidden"
+							class="text-[0.85rem] space-y-2 transition-all duration-500 overflow-hidden"
 						>
 							@for (submenu of item.subMenus; track $index) {
 							<li>

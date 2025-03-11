@@ -1,14 +1,112 @@
 /* You can add global styles to this file, and also import other style files */
 @use 'tailwindcss';
-	
+
 html,
 body {
-    height: 100%;
+	height: 100%;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    overflow-x: hidden;
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	overflow-x: hidden;
+}
+
+// scroll bar
+
+.scroll-bar::-webkit-scrollbar {
+	width: 2px; /* width of the entire scrollbar */
+	height: 2px;
+}
+
+.scroll-bar::-webkit-scrollbar-track {
+	background: #fff; /* color of the tracking area */
+}
+
+.scroll-bar::-webkit-scrollbar-thumb {
+	background: oklch(0.448 0.119 151.328); /* color of the scroll thumb */
+}
+
+.scroll-bar::-webkit-scrollbar-thumb:hover {
+	background: black; /* color of the scroll thumb on hover */
+}
+
+// sticky navbar
+.sticky-nav {
+    position: sticky;
+    top: 0px;
+}
+   
+
+
+// hightlight js
+
+pre {
+	background: #282c34; /* Màu nền tối */
+	color: #abb2bf; /* Màu chữ */
+	padding: 15px;
+	border-radius: 8px; /* Bo góc mềm mại */
+	overflow-x: auto; /* Cuộn ngang nếu quá dài */
+	font-size: 14px;
+	line-height: 1.5;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Tùy chỉnh màu chữ cho các phần tử code */
+.hljs {
+	background: none;
+}
+
+/* Hiển thị số dòng */
+pre code {
+	counter-reset: line;
+}
+
+pre code .hljs-line::before {
+	counter-increment: line;
+	content: counter(line);
+	display: inline-block;
+	width: 2em;
+	margin-right: 10px;
+	color: #555;
+	text-align: right;
+}
+
+// pre:hover {
+// 	transform: scale(1.02);
+// 	transition: all 0.3s ease-in-out;
+// }
+
+.code-container {
+	position: relative;
+	// background: #282c34; /* Màu nền tối */
+	// padding: 15px;
+	// border-radius: 8px;
+	// overflow-x: auto;
+	// font-size: 14px;
+	// line-height: 1.5;
+	// box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.copy-btn {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	background: #ffcc00;
+	color: black;
+	border: none;
+	padding: 5px 10px;
+	border-radius: 5px;
+	cursor: pointer;
+	font-size: 12px;
+	transition: background 0.3s;
+}
+
+.copy-btn:hover {
+	background: #ffaa00;
 }

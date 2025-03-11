@@ -4,10 +4,6 @@ export const dotnetMenus = [
 		url: null,
 		subMenus: [
 			{
-				id: 'duong-dan-den-thu-muc-dac-biet-cua-he-thong',
-				name: 'Đường dẫn đến thư mục đặc biệt của hệ thống',
-			},
-			{
 				id: 'lay-tat-ca-file-va-thu-muc-con-trong-thu-muc-cha',
 				name: 'Lấy tất cả File và thư mục con trong thư mục cha',
 			},
