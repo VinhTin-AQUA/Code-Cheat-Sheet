@@ -94,9 +94,9 @@ export const dotnetMenus = [
 	{
 		name: 'Net Core chung',
 		subMenus: [
-			{ id: 'data-annotation-txt', name: 'DataAnnotation' },
-			{ id: 'migration-docx', name: 'Migration' },
-			{ id: 'custom-middleware-docx', name: 'Custom middleware' },
+			{ id: 'data-annotation', name: 'DataAnnotation' },
+			{ id: 'migration', name: 'Migration' },
+			{ id: 'custom-middleware', name: 'Custom middleware' },
 		],
 	},
 	{
@@ -175,7 +175,7 @@ export const dotnetMenus = [
 			{ id: 'viewdata-viewbag-tempdata-pdf', name: '_ViewData – ViewBag – TempData' },
 			{ id: '1-tong-quan-mo-hinh-mvc-pdf', name: 'Tổng quan mô hình MVC' },
 			{
-				id: '2-tao-route-anh-xa-url-vao-controller-action-area-trong-mvc-pdf',
+				id: 'tao-route-anh-xa-url-vao-controller-action-area-trong-mvc',
 				name: 'Tạo route và ánh xạ route vào Controller, Action, Area, trong_MVC',
 			},
 			{

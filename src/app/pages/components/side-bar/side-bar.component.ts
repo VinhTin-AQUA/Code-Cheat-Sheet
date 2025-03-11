@@ -36,7 +36,6 @@ export class SideBarComponent {
 		if (item.showSubMenu === null || item.showSubMenu === undefined) {
 			return;
 		}
-
-		item.showSubMenu = !item.show;
+		item.showSubMenu = !item.showSubMenu;
 	}
 }
