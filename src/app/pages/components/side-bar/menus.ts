@@ -132,15 +132,19 @@ export const angularMenus = [
 			},
 			{ name: 'Export excel file from data', linkToDrive: '/angular-js/export-excel-file-from-data' },
 			{ name: 'jwt-decode', url: '/angular-js/jwt-decode' },
-			{ name: 'Material-ui', linkToDrive: '/angular-js/Material-ui' },
 			{ name: 'ng-select', url: '/angular-js/ng-select' },
-			{ name: 'ngx-bootstrap', url: '/angular-js/ngx-bootstrap' },
-			{ name: 'Ngx-Quill', url: '/angular-js/ngx-quill' },
-			{ name: 'QR Generator', url: '/angular-js/qr-generator' },
+			{ name: 'ngx-quill', url: '/angular-js/ngx-quill' },
 			{ name: 'tailwind css', url: '/angular-js/tailwind-css' },
-			{ name: 'Toast Notifications', url: '/angular-js/toast-notifications' },
-			{ name: 'tw-elements components', url: '/angular-js/tw-elements-components' },
 		],
 	},
-    
+    {
+		name: 'Components',
+		subMenus: [
+			{
+				name: 'Input',
+				url: '#',
+			},
+		],
+	},
+
 ] as any;

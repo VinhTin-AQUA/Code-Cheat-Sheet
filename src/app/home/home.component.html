@@ -1,7 +1,7 @@
 <div class="wrapper">
 	<div class="container mx-auto">
 		<div class="p-4">
-			<div class="flex flex-wrap gap-3">
+			<div class="topic">
 				@for (item of items; track $index) {
 				<a [routerLink]="item.url" class="item" style="--color: {{ item.color }}">
 					<span class="hover">

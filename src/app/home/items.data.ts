@@ -79,4 +79,9 @@ export const items = [
 		url: '',
         color: '#1A1F71',
 	},
+    {
+		name: 'HTML - CSS',
+		url: '',
+        color: '#1A1F71',
+	},
 ];
