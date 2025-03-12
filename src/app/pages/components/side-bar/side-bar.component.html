@@ -58,13 +58,13 @@
 						} @else {
 						<button
 							(click)="onShowSubMenu(item)"
-							class="cursor-pointer flex items-center w-full p-2 pe-6 text-base text-white transition duration-75 rounded-lg hover:bg-gray-100 hover:text-zinc-900"
+							class="cursor-pointer flex items-center w-full p-2 text-base text-white transition duration-75 rounded-lg hover:bg-gray-100 hover:text-zinc-900"
 						>
 							<span class="flex-1 ms-3 text-left rtl:text-right whitespace-nowrap">{{
 								item.name
 							}}</span>
 							<svg
-								class="w-3 h-3"
+								class="w-5 h-2"
 								[ngClass]="{ 'rotate-180': item.showSubMenu }"
 								aria-hidden="true"
 								xmlns="http://www.w3.org/2000/svg"
@@ -89,7 +89,7 @@
 							@for (submenu of item.subMenus; track $index) {
 							<li>
 								<a
-									[routerLink]="'/dot-net/' + submenu.id"
+									[routerLink]="submenu.url"
 									class="flex items-center w-full p-2 rounded-lg pl-11 group text-white hover:bg-gray-100 hover:text-zinc-900"
 									>{{ submenu.name }}</a
 								>

@@ -39,7 +39,7 @@ export class SideBarComponent {
 				this.menus = dotnetMenus;
 		}
 
-		for (let i of dotnetMenus) {
+		for (let i of this.menus) {
 			i.showSubMenu = false;
 		}
 	}
@@ -49,5 +49,7 @@ export class SideBarComponent {
 			return;
 		}
 		item.showSubMenu = !item.showSubMenu;
+        console.log();
+        
 	}
 }

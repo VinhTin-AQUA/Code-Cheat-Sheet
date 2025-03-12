@@ -10,7 +10,61 @@
 
 		<div class="relative">
 			<!-- <div class="p-2" [innerHTML]="content"></div> -->
-			<router-outlet></router-outlet>
+            @if (isOutlet === true) {
+                <router-outlet></router-outlet>
+            }
+			@else {<div class="wrapper">
+                <div class="flex">
+                    <div #contentContainer class="flex-1 overflow-y-scroll scroll-bar max-h-[calc(100ch-20px)]">
+                        <div class="p-3">
+                            <!-- item -->
+                            @for (item of codes; track $index) { @if(item.linkToDrive) {
+            
+                            <div [id]="item.id" class="mb-4">
+                                <a [href]="item.linkToDrive" class="drive-btn">
+                                    <span class="hover"></span>
+                                    <span>{{ item.name }}</span>
+                                </a>
+                            </div>
+            
+                            } @else {
+                            <div [id]="item.id" class="mb-4">
+                                <div>
+                                    <span class="text-[1.2rem] font-bold">{{ item.name }}</span>
+                                </div>
+                                @for (block of item.codeBlocks; track $index) {
+                                <div class="mb-3 px-3">
+                                    <div class="text-[1.1rem] font-medium">
+                                        <span>{{ block.name }}</span>
+                                    </div>
+                                    <div class="code-container">
+                                        <button class="copy-btn" (click)="copyCode(block.code)">📋 Copy</button>
+                                        <pre
+                                            class="p-0"
+                                        ><code style="padding: 0 !important;" class="p-0" [highlight]="block.code" [language]="block.language"></code></pre>
+                                    </div>
+                                </div>
+                                }
+                            </div>
+                            } }
+                        </div>
+                    </div>
+            
+                    <div class="hidden md:block md:w-[350px] p-2">
+                        @for (item of codes; track $index){
+                        <div>
+                            <button
+                                class="text-left text-blue-600 hover:text-blue-800 hover:underline cursor-pointer"
+                                (click)="scrollTo(item.id)"
+                            >
+                                {{ item.name }}
+                            </button>
+                        </div>
+                        }
+                    </div>
+                </div>
+            </div>}
+            
 		</div>
 	</div>
 </div>

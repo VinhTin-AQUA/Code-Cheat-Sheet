@@ -57,8 +57,38 @@ export const dotnetMenus = [
 ] as any;
 
 export const angularMenus = [
-    {
+	{
 		name: 'Fast codes',
 		url: '/angular-js/fast-code',
+	},
+	{
+		name: 'Concepts',
+		subMenus: [
+			{
+				name: 'Directive Custom',
+                url: '/angular-js/directive-custom',
+			},
+            {
+				name: 'Guard',
+				url: '/angular-js/guard',
+			},
+            {
+				name: 'Interceptors',
+				url: '/angular-js/interceptors',
+			},
+            {
+				name: 'PIPE',
+				url: '/angular-js/pipe',
+			},
+            
+		],
+	},
+    {
+		name: 'Provide config',
+		url: '/angular-js/provide-config',
+	},
+    {
+		name: 'Layouts',
+		url: '/angular-js/layouts',
 	},
 ] as any;
