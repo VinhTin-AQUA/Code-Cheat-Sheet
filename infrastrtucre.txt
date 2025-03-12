@@ -1,52 +1,11 @@
 gom nhóm
 
-	
+HTML - CSS - JS
+    các code trong html tip
 
 Angular (đưa lại lên drive)
-	
-    layouts
-        Masonry Layout (PinterestLayout).docx
-        reactive sidebar-header 
-
-    Techs
-        Apollo client (link to drive)
-
-	
-    Ngrx (link to drive)
-    
-    Reactive Form
-        đặt trạng thái dirty của control trong form group.txt
-        Form Validation.docx
-        reset value.txt
-        
-    Routing
-        Bind Route Info to Component Inputs.docx
-        cho phép binding dữ liệu qua route.txt
-        cuộc lên đầu trang khi chuyển sang trang mới.txt
-        Params và Query string URL.docx
-        queryParams and queryParamMap.txt
-        router link activate.txt
-        Routing.docx
-        View transition trong Angular – Hiệu ứng chuyển giữa các pages.docx
-		
-	CLI_Command.txt
-	
-	_libraries
-		Copy to clipboard.docx
-		Echarts angular.docx
-		Export excel file from data.docx
-		jwt-decode.txt
-		Material-ui.txt
-		ng-select.docx
-		ngx-bootstrap.txt
-		Ngx-Quill.docx
-		QR Generator.docx
-		tailwind css.txt
-		Toast Notifications.docx
-		tw-elements components.docx
 
     components
-        các code trong html tip
         menu
         scroll trong trang file directory
 Bot

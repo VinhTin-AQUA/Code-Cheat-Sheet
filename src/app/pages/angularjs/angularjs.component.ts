@@ -3,13 +3,21 @@ import { ActivatedRoute, RouterOutlet } from '@angular/router';
 import { SideBarComponent } from '../components/side-bar/side-bar.component';
 import { HeaderComponent } from '../components/header/header.component';
 import {
+	CLICodes,
 	directiveCustomCodes,
+	echartsAngularCodes,
 	fastCodes,
 	guardCodes,
 	interceptorCodes,
+	jwtDecodeCodes,
 	layoutCodes,
 	pipeCodes,
 	provideConfigCodes,
+	reactiveFormCodes,
+	routingCodes,
+	signalCodes,
+	signalStoreCodes,
+	techCodes,
 } from './codes';
 import { HighlightModule } from 'ngx-highlightjs';
 
@@ -60,6 +68,30 @@ export class AngularjsComponent {
 			case 'layouts':
 				this.codes = layoutCodes;
 				break;
+			case 'techs':
+				this.codes = techCodes;
+				break;
+			case 'signalStore':
+				this.codes = signalStoreCodes;
+				break;
+			case 'signal':
+				this.codes = signalCodes;
+				break;
+			case 'reactive-form':
+				this.codes = reactiveFormCodes;
+				break;
+			case 'routing':
+				this.codes = routingCodes;
+				break;
+			case 'cli-command':
+				this.codes = CLICodes;
+				break;
+			case 'echarts-angular':
+				this.codes = echartsAngularCodes;
+				break;
+            case 'jwt-decode':
+                this.codes = jwtDecodeCodes;
+                break;
 			default:
 				this.codes = fastCodes;
 		}

@@ -10,23 +10,19 @@
 
 		<div class="relative">
 			<!-- <div class="p-2" [innerHTML]="content"></div> -->
-            @if (isOutlet === true) {
-                <router-outlet></router-outlet>
-            }
-			@else {<div class="wrapper">
+         
+			<div class="wrapper">
                 <div class="flex">
                     <div #contentContainer class="flex-1 overflow-y-scroll scroll-bar max-h-[calc(100ch-20px)]">
                         <div class="p-3">
                             <!-- item -->
                             @for (item of codes; track $index) { @if(item.linkToDrive) {
-            
                             <div [id]="item.id" class="mb-4">
                                 <a [href]="item.linkToDrive" class="drive-btn">
                                     <span class="hover"></span>
-                                    <span>{{ item.name }}</span>
-                                </a>
+                                    <span>{{item.name}}</span>
+                               </a>
                             </div>
-            
                             } @else {
                             <div [id]="item.id" class="mb-4">
                                 <div>
@@ -63,8 +59,7 @@
                         }
                     </div>
                 </div>
-            </div>}
-            
+            </div>
 		</div>
 	</div>
 </div>
