@@ -1,9 +1,12 @@
-export const codes = [
+export const threadAsyncCodes = [
 	{
 		id: 'so-sanh-thread-va-async',
 		name: 'So sánh Thread và Async',
-		language: 'language',
-		code: `1.	Thread
+		codeBlocks: [
+			{
+				name: '',
+				language: 'text',
+				code: `1.	Thread
 -	Threads là nhóm xử lý thu nhỏ mà một hệ điều hành có thể lên lịch. Trong .NET, threading cho phép bạn thực hiện các thao tác phức tạp trong nền mà không làm gián đoạn luồng thực thi chính của ứng dụng. Threading đặc biệt hữu ích cho các hoạt động ràng buộc CPU yêu cầu thực thi song song để tăng tốc quá trình tổng thể. Điều quan trọng cần lưu ý là hệ điều hành rất quan trọng trong việc quản lý các luồng, lên lịch thực hiện chúng và đảm bảo sự công bằng và hiệu quả. Hiểu các cơ chế này có thể giúp bạn viết mã hiệu quả hơn và có thể mở rộng.
 -	Phân luồng trong .NET cho phép kiểm soát chi tiết việc thực thi song song, cung cấp khả năng tối ưu hóa các phần cụ thể của ứng dụng cho hiệu suất. Tuy nhiên, sức mạnh lớn đi kèm với trách nhiệm lớn — việc sử dụng luồng không đúng cách có thể dẫn đến các kịch bản gỡ lỗi phức tạp, race conditions, và bế tắc. Ví dụ: [giải thích một vấn đề phân luồng phổ biến và cách tránh nó]. Các phương pháp hay nhất bao gồm sử dụng nhóm luồng, tránh chặn cuộc gọi và sử dụng các nguyên thủy đồng bộ hóa khi cần thiết.
 2.	Task
@@ -21,13 +24,20 @@ o	Các tác vụ, với ThreadPool cơ bản của chúng, thường có khả n
 o	Các nhiệm vụ cung cấp mức độ trừu tượng cao hơn, giúp chúng dễ làm việc hơn, đặc biệt là đối với các hoạt động không đồng bộ phức tạp.
 
 `,
+			},
+		],
 	},
 	{
 		id: 'khac-nhau-giua-task-delay-va-thread-sleep',
 		name: 'Khác nhau giữa Task.Delay và Thread.Sleep',
-		language: 'language',
-		code: `Task.Delay => chờ mà không chặn luồng chính (main thread)
-Thread.Sleep => chặn luồng thực thi chính (main thread) cho đến khi thời gian chờ kết thúc.
-`,
+		codeBlocks: [
+			{
+				name: '',
+				language: 'text',
+				code: `Task.Delay => chờ mà không chặn luồng chính (main thread)
+        Thread.Sleep => chặn luồng thực thi chính (main thread) cho đến khi thời gian chờ kết thúc.
+        `,
+			},
+		],
 	},
 ];

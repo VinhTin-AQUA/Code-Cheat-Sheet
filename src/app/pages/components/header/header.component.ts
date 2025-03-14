@@ -11,10 +11,14 @@ export class HeaderComponent {
 	@Input() headerType: string = 'dotnet';
 	title: string = '.NET';
 	showSidebar: boolean = true;
+	showSubSidebar: boolean = true;
 
 	@Output() dataEmitter = new EventEmitter<boolean>();
+	@Output() dataShowSubSidebar = new EventEmitter<boolean>();
 
 	ngOnInit() {
+		this.checkSidebarInit();
+
 		switch (this.headerType) {
 			case 'dotnet':
 				this.title = '.NET';
@@ -32,6 +36,11 @@ export class HeaderComponent {
 		this.dataEmitter.emit(this.showSidebar);
 	}
 
+	onShowSubSidebar() {
+		this.showSubSidebar = !this.showSubSidebar;
+		this.dataShowSubSidebar.emit(this.showSubSidebar);
+	}
+
 	@HostListener('window:resize', [])
 	onResize() {
 		this.checkScreenSize();
@@ -46,6 +55,30 @@ export class HeaderComponent {
 		} else if (check === false && this.showSidebar === false) {
 			this.showSidebar = true;
 			this.dataEmitter.emit(true);
+		}
+
+        if (check === true && this.showSubSidebar === true) {
+			this.showSubSidebar = false;
+			this.dataShowSubSidebar.emit(false);
+		} else if (check === false && this.showSubSidebar === false) {
+			this.showSubSidebar = true;
+			this.dataShowSubSidebar.emit(true);
+		}
+	}
+
+	private checkSidebarInit() {
+		const check = window.innerWidth < 640;
+
+		if (check === true && this.showSidebar === true) {
+			this.showSidebar = false;
+		} else if (check === false && this.showSidebar === false) {
+			this.showSidebar = true;
+		}
+
+        if (check === true && this.showSubSidebar === true) {
+			this.showSubSidebar = false;
+		} else if (check === false && this.showSubSidebar === false) {
+			this.showSubSidebar = true;
 		}
 	}
 }

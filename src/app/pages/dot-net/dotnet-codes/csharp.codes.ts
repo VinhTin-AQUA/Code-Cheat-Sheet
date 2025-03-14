@@ -1,9 +1,12 @@
-export const codes = [
+export const csharpCodes = [
 	{
 		id: 'chuyen-dinh-dang-datetimeoffset',
 		name: 'Chuyển định dạng datetimeoffset',
-        language: 'csharp',
-		code: `    // Tạo một DateTimeOffset
+		codeBlocks: [
+			{
+				name: '',
+				language: 'csharp',
+				code: `    // Tạo một DateTimeOffset
     DateTimeOffset myDateTimeOffset = DateTimeOffset.Now;
 
     // Chuyển đổi thành chuỗi với định dạng mong muốn
@@ -12,12 +15,17 @@ export const codes = [
     // In ra màn hình
     Console.WriteLine(formattedDateTime);
 `,
+			},
+		],
 	},
 	{
 		id: 'doc-ghi-du-lieu-json-ra-doi-tuong-va-nguoc-lai',
 		name: 'Đọc ghi dữ liệu JSON ra đối tượng và ngược lại',
-        language: 'csharp',
-		code: `   #region ghi dữ liệu json
+		codeBlocks: [
+			{
+				name: '',
+				language: 'csharp',
+				code: `   #region ghi dữ liệu json
 
     Account account = new()
     {
@@ -47,12 +55,17 @@ export const codes = [
 
     #endregion          
 `,
+			},
+		],
 	},
-    {
+	{
 		id: 'indexer-dinh-nghia-index',
 		name: 'Định nghĩa Indexer',
-        language: 'csharp',
-		code: `    using System.Text;
+		codeBlocks: [
+			{
+				name: '',
+				language: 'csharp',
+				code: `    using System.Text;
     using System.Linq;
 
     class Complex
@@ -117,12 +130,17 @@ export const codes = [
         }
     }      
 `,
+			},
+		],
 	},
-    {
+	{
 		id: 'chi-lay-phan-quan-trong-trong-stack-trace',
 		name: 'Chỉ lấy phần quan trọng trong stack trace',
-        language: 'csharp',
-		code: `    {
+		codeBlocks: [
+			{
+				name: '',
+				language: 'csharp',
+				code: `    {
         if (string.IsNullOrEmpty(stackTrace))
         {
             return "";
@@ -141,12 +159,17 @@ export const codes = [
         return relevantLines.ToString();
     }                
 `,
+			},
+		],
 	},
-    {
+	{
 		id: 'tao-slug-tu-chuoi-co-san',
 		name: 'Triển khai Background service chạy tự động',
-        language: 'csharp',
-		code: `    public class RoomBackgroundService : BackgroundService
+		codeBlocks: [
+			{
+				name: '',
+				language: 'csharp',
+				code: `    public class RoomBackgroundService : BackgroundService
     {
         private readonly IServiceScopeFactory serviceScopeFactory;
         private Timer _timer;
@@ -192,12 +215,17 @@ export const codes = [
     // BackgroundService 
     builder.Services.AddHostedService<ProductStatusUpdaterService>();
 `,
+			},
+		],
 	},
-    {
+	{
 		id: 'log-chu-co-mau-ra-console',
 		name: 'Log chữ có máu ra console',
-        language: 'csharp',
-		code: `   // Đổi màu chữ thành đỏ
+		codeBlocks: [
+			{
+				name: '',
+				language: 'csharp',
+				code: `   // Đổi màu chữ thành đỏ
     Console.ForegroundColor = ConsoleColor.Red;
 
     // In dòng chữ ra console
@@ -206,5 +234,7 @@ export const codes = [
     // Đặt lại màu mặc định
     Console.ResetColor();          
 `,
+			},
+		],
 	},
 ];

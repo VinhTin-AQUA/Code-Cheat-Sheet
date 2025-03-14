@@ -28,6 +28,8 @@ export class SideBarComponent {
 	constructor() {}
 
 	ngOnInit() {
+		this.checkSidebarInit();
+
 		switch (this.menuType) {
 			case 'dotnet':
 				this.menus = dotnetMenus;
@@ -44,12 +46,20 @@ export class SideBarComponent {
 		}
 	}
 
+	private checkSidebarInit() {
+		const check = window.innerWidth < 640;
+
+		if (check === true && this.showSidebar === true) {
+			this.showSidebar = false;
+		} else if (check === false && this.showSidebar === false) {
+			this.showSidebar = true;
+		}
+	}
+
 	onShowSubMenu(item: any) {
 		if (item.showSubMenu === null || item.showSubMenu === undefined) {
 			return;
 		}
 		item.showSubMenu = !item.showSubMenu;
-        console.log();
-        
 	}
 }

@@ -1,12 +1,12 @@
 export const items = [
 	{
 		name: '.NET',
-		url: '/dot-net',
+		url: '/dot-net/file-directory',
 		color: '#512BD4',
 	},
 	{
 		name: 'Angular',
-		url: '/angular-js',
+		url: '/angular-js/fast-code',
 		color: '#dd0031',
 	},
 	{

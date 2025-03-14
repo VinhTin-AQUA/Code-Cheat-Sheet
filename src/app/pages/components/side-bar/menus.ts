@@ -9,7 +9,7 @@ export const dotnetMenus = [
 	},
 	{
 		name: 'String',
-		url: '/dot-net/string',
+		url: '/dot-net/net-string',
 	},
 	{
 		name: 'C-Sharp',
@@ -28,7 +28,7 @@ export const dotnetMenus = [
 
 	{
 		name: 'Techs',
-		url: '/dot-net/techs',
+		url: '/dot-net/net-techs',
 	},
 	{
 		name: 'NET CORE MVC',

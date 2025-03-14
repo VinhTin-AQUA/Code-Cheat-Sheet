@@ -1,9 +1,12 @@
-export const codes = [
+export const netapiCodes = [
 	{
 		id: 'custom-loi-modelstate-gui-den-client-thanh-mang-chuoi',
 		name: 'Custom lỗi ModelState gửi đến client thành mảng chuỗi',
-        language: 'csharp',
-		code: `    // định dạng lỗi gửi đến client
+		codeBlocks: [
+			{
+				name: '',
+				language: 'csharp',
+				code: `    // định dạng lỗi gửi đến client
     builder.Services.Configure<ApiBehaviorOptions>(options =>
     {
         options.InvalidModelStateResponseFactory = (actionContext) =>
@@ -22,24 +25,29 @@ export const codes = [
         };
     });
         `,
+			},
+		],
 	},
 	{
 		id: 'dang-nhap-gg-api',
 		name: 'Đăng nhập GG API',
-        language: 'csharp',
+		language: 'csharp',
 		linkToDrive: 'aaa',
 	},
 	{
 		id: 'dich-vu-gui-mail-api',
 		name: 'Dịch vụ gửi mail API',
-        language: 'csharp',
+		language: 'csharp',
 		linkToDrive: 'aaa',
 	},
-    {
+	{
 		id: 'enable-cors',
 		name: 'Enable CORS',
-        language: 'csharp',
-		code: `    // enable cors
+		codeBlocks: [
+			{
+				name: '',
+				language: 'csharp',
+				code: `    // enable cors
     builder.Services.AddCors(c =>
     {
         c.AddPolicy("AllowOrigin", option => option.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
@@ -48,12 +56,17 @@ export const codes = [
     // enable cors
     app.UseCors(option => option.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
         `,
+			},
+		],
 	},
-    {
+	{
 		id: 'jwt-service',
 		name: 'JWT - Service',
-        language: 'csharp',
-		code: `    
+		codeBlocks: [
+			{
+				name: '',
+				language: 'csharp',
+				code: `    
 /* Install packages */ 
 Install-Package Microsoft.AspNetCore.Authentication.JwtBearer
 Install-Package System.IdentityModel.Tokens.Jwt
@@ -150,17 +163,19 @@ Install-Package System.IdentityModel.Tokens.Jwt
 
 /* thêm midlware */
     app.UseAuthentication();`,
+			},
+		],
 	},
-    {
+	{
 		id: 'khac-phuc-spam-api-bi-trung-du-lieu',
 		name: 'Khắc phục spam API bị trùng dữ liệu',
-        language: 'csharp',
+		language: 'csharp',
 		linkToDrive: 'aaa',
 	},
-    {
+	{
 		id: 'upload-file-api',
 		name: 'Upload File API',
-        language: 'csharp',
+		language: 'csharp',
 		linkToDrive: 'aaa',
 	},
 ];
