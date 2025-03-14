@@ -2,6 +2,7 @@ import { Routes } from '@angular/router';
 import { HomeComponent } from './home/home.component';
 import { AngularjsComponent } from './pages/angularjs/angularjs.component';
 import { DotNetComponent } from './pages/dot-net/dot-net.component';
+import { HtmlCssComponent } from './pages/html-css/html-css.component';
 
 export const routes: Routes = [
 	{ path: '', redirectTo: 'home', pathMatch: 'full' },
@@ -16,9 +17,8 @@ export const routes: Routes = [
 		component: AngularjsComponent,
 		title: 'Angular',
 	},
-	// {
-	// 	path: 'angular-js',
-	// 	loadChildren: () => import('./pages/angularjs/angularjs.routes').then(r => r.angularRoutes),
-	// },
+    {
+        path: 'html-css/:id', component: HtmlCssComponent, title: 'HTML - CSS'
+    },
 	{ path: '**', redirectTo: 'home', pathMatch: 'full' },
 ];

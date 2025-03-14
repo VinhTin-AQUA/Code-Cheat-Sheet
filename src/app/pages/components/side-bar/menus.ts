@@ -80,6 +80,10 @@ export const angularMenus = [
 				name: 'PIPE',
 				url: '/angular-js/pipe',
 			},
+            {
+				name: 'Lifecycle hook',
+				url: '/angular-js/life-cycle-hook',
+			},
 		],
 	},
 	{
@@ -130,21 +134,66 @@ export const angularMenus = [
 				name: 'Echarts angular',
 				url: '/angular-js/echarts-angular',
 			},
-			{ name: 'Export excel file from data', linkToDrive: '/angular-js/export-excel-file-from-data' },
+			{
+				name: 'Export excel file from data',
+				linkToDrive: '/angular-js/export-excel-file-from-data',
+			},
 			{ name: 'jwt-decode', url: '/angular-js/jwt-decode' },
 			{ name: 'ng-select', url: '/angular-js/ng-select' },
 			{ name: 'ngx-quill', url: '/angular-js/ngx-quill' },
 			{ name: 'tailwind css', url: '/angular-js/tailwind-css' },
 		],
 	},
-    {
+	{
 		name: 'Components',
 		subMenus: [
 			{
 				name: 'Input',
-				url: '#',
+				url: '/angular-js/input',
 			},
 		],
 	},
+] as any;
 
+export const htmlMenus = [
+	{
+		name: 'Grid Responsive',
+		url: '/html-css/grid-responsive',
+	},
+	{
+		name: 'Custom Cursor',
+		url: '/html-css/custom-cursor',
+	},
+	{
+		name: 'Image ratio',
+		url: '/html-css/image-ratio',
+	},
+    {
+		name: 'li marker',
+		url: '/html-css/li-marker',
+	},
+    {
+		name: 'Line clamp',
+		url: '/html-css/line-clamp',
+	},
+    {
+        name: 'Custom scrollbar',
+        url: '/html-css/custom-scroll-bar'
+    },
+    {
+        name: 'Checkbox',
+        url: '/html-css/checkbox'
+    },
+    {
+        name:'Backdrop filter blur',
+        url: '/html-css/backdrop-filter-blur'
+    },
+    {
+        name:'Drop shadow',
+        url: '/html-css/drop-shadow'
+    },
+    {
+        name:'Sticky navbar',
+        url: '/html-css/sticky-navbar'
+    },
 ] as any;

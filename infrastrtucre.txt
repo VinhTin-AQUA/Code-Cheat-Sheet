@@ -1,8 +1,5 @@
 gom nhóm
 
-HTML - CSS - JS
-    các code trong html tip
-
 Angular (đưa lại lên drive)
         
 Bot

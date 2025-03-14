@@ -81,7 +81,7 @@ export const items = [
 	},
     {
 		name: 'HTML - CSS',
-		url: '',
+		url: '/html-css/grid-responsive',
         color: '#1A1F71',
 	},
 ];

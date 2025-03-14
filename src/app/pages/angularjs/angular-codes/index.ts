@@ -3,9 +3,11 @@ import { directiveCustomCodes } from './directive-custom.codes';
 import { echartsAngularCodes } from './echarts-angular.codes';
 import { fastCodes } from './fast.codes';
 import { guardCodes } from './guard.codes';
+import { inputCodes } from './input.codes';
 import { interceptorCodes } from './interceptor.codes';
 import { jwtDecodeCodes } from './jwt.codes';
 import { layoutCodes } from './layout.codes';
+import { lifeCycleHook } from './life-cycle-hook.codes';
 import { ngSelectCodes } from './ng-select.codes';
 import { ngxQuill } from './ngx-quill.codes';
 import { pipeCodes } from './pipe.codes';
@@ -36,4 +38,6 @@ export const codes = {
 	'ng-select': ngSelectCodes,
 	'ngx-quill': ngxQuill,
 	'tailwind-css': tailwindCodes,
+    'life-cycle-hook': lifeCycleHook,
+    'input': inputCodes,
 };
