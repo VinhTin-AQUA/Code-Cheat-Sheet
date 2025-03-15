@@ -1,13 +1,13 @@
 <div class="flex">
 	<div class="">
-		<app-side-bar [showSidebar]="showSidebar" menuType="angular"></app-side-bar>
+		<app-side-bar [showSidebar]="showSidebar" menuType="bot"></app-side-bar>
 	</div>
 
 	<div class="flex-1 overflow-hidden scroll-bar max-h-screen">
 		<div class="sticky-nav z-20">
 			<app-header
 				(dataEmitter)="receiveData($event)"
-				headerType="angular"
+				headerType="bot"
 				(dataShowSubSidebar)="onDataShowSubSidebar($event)"
 			></app-header>
 		</div>

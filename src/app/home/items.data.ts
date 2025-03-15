@@ -11,7 +11,7 @@ export const items = [
 	},
 	{
 		name: 'Bot',
-		url: '',
+		url: '/bot/telegram-bot',
 		color: '#438ded',
 	},
 	{

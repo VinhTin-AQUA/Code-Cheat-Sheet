@@ -1,6 +1,6 @@
 import { CommonModule } from '@angular/common';
 import { Component, Input } from '@angular/core';
-import { angularMenus, dotnetMenus, htmlMenus } from './menus';
+import { angularMenus, botMenus, dotnetMenus, htmlMenus } from './menus';
 import { animate, style, transition, trigger } from '@angular/animations';
 import { RouterLink, RouterLinkActive } from '@angular/router';
 
@@ -39,6 +39,9 @@ export class SideBarComponent {
 				break;
 			case 'html-css':
 				this.menus = htmlMenus;
+				break;
+			case 'bot':
+				this.menus = botMenus;
 				break;
 			default:
 				this.menus = dotnetMenus;

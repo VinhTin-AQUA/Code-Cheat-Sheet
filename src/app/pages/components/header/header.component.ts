@@ -26,6 +26,9 @@ export class HeaderComponent {
 			case 'angular':
 				this.title = 'Angular';
 				break;
+			case 'bot':
+				this.title = 'Bot';
+				break;
 			default:
 				this.title = '.NET';
 		}
@@ -57,7 +60,7 @@ export class HeaderComponent {
 			this.dataEmitter.emit(true);
 		}
 
-        if (check === true && this.showSubSidebar === true) {
+		if (check === true && this.showSubSidebar === true) {
 			this.showSubSidebar = false;
 			this.dataShowSubSidebar.emit(false);
 		} else if (check === false && this.showSubSidebar === false) {
@@ -75,7 +78,7 @@ export class HeaderComponent {
 			this.showSidebar = true;
 		}
 
-        if (check === true && this.showSubSidebar === true) {
+		if (check === true && this.showSubSidebar === true) {
 			this.showSubSidebar = false;
 		} else if (check === false && this.showSubSidebar === false) {
 			this.showSubSidebar = true;

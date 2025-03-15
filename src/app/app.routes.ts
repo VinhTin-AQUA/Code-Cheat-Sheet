@@ -3,6 +3,7 @@ import { HomeComponent } from './home/home.component';
 import { AngularjsComponent } from './pages/angularjs/angularjs.component';
 import { DotNetComponent } from './pages/dot-net/dot-net.component';
 import { HtmlCssComponent } from './pages/html-css/html-css.component';
+import { BotComponent } from './pages/bot/bot.component';
 
 export const routes: Routes = [
 	{ path: '', redirectTo: 'home', pathMatch: 'full' },
@@ -15,6 +16,11 @@ export const routes: Routes = [
 	{
 		path: 'angular-js/:id',
 		component: AngularjsComponent,
+		title: 'Angular',
+	},
+    {
+		path: 'bot/:id',
+		component: BotComponent,
 		title: 'Angular',
 	},
     {

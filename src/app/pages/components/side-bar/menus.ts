@@ -197,3 +197,10 @@ export const htmlMenus = [
         url: '/html-css/sticky-navbar'
     },
 ] as any;
+
+export const botMenus = [
+    {
+        name: 'Telegram bot',
+		url: '/bot/telegram-bot',
+    }
+]

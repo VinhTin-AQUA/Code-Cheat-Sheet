@@ -1,9 +1,4 @@
 gom nhóm
-
-Angular (đưa lại lên drive)
-        
-Bot
-	Bot Telegram.docx
 	
 Docker
     Command
