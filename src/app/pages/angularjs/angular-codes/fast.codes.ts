@@ -67,7 +67,7 @@ export const fastCodes = [
 			},
 			{
 				name: 'Docker compose',
-				language: 'dockerfile',
+				language: 'yaml',
 				code: `   services:
     react-app:
         image: react-dashboard
@@ -386,8 +386,8 @@ export const fastCodes = [
 				code: `    <input #phone />`,
 			},
 			{
-				name: 'Html',
-				language: 'html',
+				name: 'Typescript',
+				language: 'typescript',
 				code: `    @ViewChild('phone') phone!: ElementRef;
 
     obSubmit() {

@@ -29,6 +29,9 @@ export class HeaderComponent {
 			case 'bot':
 				this.title = 'Bot';
 				break;
+			case 'docker':
+				this.title = 'Docker';
+				break;
 			default:
 				this.title = '.NET';
 		}

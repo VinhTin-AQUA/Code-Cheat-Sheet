@@ -80,7 +80,7 @@ export const angularMenus = [
 				name: 'PIPE',
 				url: '/angular-js/pipe',
 			},
-            {
+			{
 				name: 'Lifecycle hook',
 				url: '/angular-js/life-cycle-hook',
 			},
@@ -168,39 +168,108 @@ export const htmlMenus = [
 		name: 'Image ratio',
 		url: '/html-css/image-ratio',
 	},
-    {
+	{
 		name: 'li marker',
 		url: '/html-css/li-marker',
 	},
-    {
+	{
 		name: 'Line clamp',
 		url: '/html-css/line-clamp',
 	},
-    {
-        name: 'Custom scrollbar',
-        url: '/html-css/custom-scroll-bar'
-    },
-    {
-        name: 'Checkbox',
-        url: '/html-css/checkbox'
-    },
-    {
-        name:'Backdrop filter blur',
-        url: '/html-css/backdrop-filter-blur'
-    },
-    {
-        name:'Drop shadow',
-        url: '/html-css/drop-shadow'
-    },
-    {
-        name:'Sticky navbar',
-        url: '/html-css/sticky-navbar'
-    },
+	{
+		name: 'Custom scrollbar',
+		url: '/html-css/custom-scroll-bar',
+	},
+	{
+		name: 'Checkbox',
+		url: '/html-css/checkbox',
+	},
+	{
+		name: 'Backdrop filter blur',
+		url: '/html-css/backdrop-filter-blur',
+	},
+	{
+		name: 'Drop shadow',
+		url: '/html-css/drop-shadow',
+	},
+	{
+		name: 'Sticky navbar',
+		url: '/html-css/sticky-navbar',
+	},
 ] as any;
 
 export const botMenus = [
-    {
-        name: 'Telegram bot',
+	{
+		name: 'Telegram bot',
 		url: '/bot/telegram-bot',
-    }
-]
+	},
+];
+
+export const dockerMenus = [
+    {
+		name: 'Login',
+		url: '/docker/login'
+	},
+	{
+		name: 'Commands',
+		subMenus: [
+			{
+				name: 'Image commands',
+				url: '/docker/image-commands',
+			},
+            {
+				name: 'Container commands',
+				url: '/docker/container-commands',
+			},
+		],
+	},
+    {
+		name: 'Volume',
+		linkToDrive: '/docker/login'
+	},
+    {
+		name: 'Docker compose',
+		url: '/docker/docker-compose'
+	},
+    {
+		name: 'Docker .ignore',
+		url: '/docker/docker-ignore'
+	},
+    {
+		name: 'Dockerize',
+		subMenus: [
+			{
+				name: 'Angular',
+				url: '/docker/dockerize-angular',
+			},
+            {
+				name: 'Asp NET API, MVC',
+				url: '/docker/dockerize-netcore',
+			},
+            {
+				name: 'SQL server',
+				url: '/docker/dockerize-sql',
+			},
+            {
+				name: '.NET + SQL server',
+				linkToDrive: '/docker/dockerize-net-sql',
+			},
+            {
+				name: 'React',
+				url: '/docker/dockerize-react',
+			},
+            {
+				name: 'Redis',
+				url: '/docker/dockerize-redis',
+			},
+            {
+				name: 'NestJS',
+				url: '/docker/dockerize-nestjs',
+			},
+		],
+	},
+    {
+		name: 'Tải thêm phụ thuộc',
+        url: '/docker/add-dependencies'
+	},
+];

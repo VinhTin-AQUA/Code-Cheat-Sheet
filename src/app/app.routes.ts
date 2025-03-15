@@ -4,6 +4,7 @@ import { AngularjsComponent } from './pages/angularjs/angularjs.component';
 import { DotNetComponent } from './pages/dot-net/dot-net.component';
 import { HtmlCssComponent } from './pages/html-css/html-css.component';
 import { BotComponent } from './pages/bot/bot.component';
+import { DockerComponent } from './pages/docker/docker.component';
 
 export const routes: Routes = [
 	{ path: '', redirectTo: 'home', pathMatch: 'full' },
@@ -21,7 +22,12 @@ export const routes: Routes = [
     {
 		path: 'bot/:id',
 		component: BotComponent,
-		title: 'Angular',
+		title: 'Bot',
+	},
+    {
+		path: 'docker/:id',
+		component: DockerComponent,
+		title: 'Docker',
 	},
     {
         path: 'html-css/:id', component: HtmlCssComponent, title: 'HTML - CSS'
