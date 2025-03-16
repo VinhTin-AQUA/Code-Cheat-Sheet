@@ -41,12 +41,12 @@ export const items = [
 	},
 	{
 		name: 'Nginx',
-		url: '',
+		url: '/nginx/config',
         color: '#009639',
 	},
 	{
 		name: 'ngrok',
-		url: '',
+		url: '/ngrok/ngrok-command',
         color: '#1F1E37',
 	},
 	{

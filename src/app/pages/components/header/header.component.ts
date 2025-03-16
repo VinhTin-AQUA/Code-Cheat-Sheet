@@ -32,6 +32,12 @@ export class HeaderComponent {
 			case 'docker':
 				this.title = 'Docker';
 				break;
+			case 'nginx':
+				this.title = 'Nginx';
+				break;
+			case 'ngrok':
+				this.title = 'Ngrok';
+				break;
 			default:
 				this.title = '.NET';
 		}

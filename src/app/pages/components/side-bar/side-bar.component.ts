@@ -1,6 +1,14 @@
 import { CommonModule } from '@angular/common';
 import { Component, Input } from '@angular/core';
-import { angularMenus, botMenus, dockerMenus, dotnetMenus, htmlMenus } from './sidebar-menus';
+import {
+	angularMenus,
+	botMenus,
+	dockerMenus,
+	dotnetMenus,
+	htmlMenus,
+	nginxMenus,
+	ngrokMenus,
+} from './sidebar-menus';
 import { animate, style, transition, trigger } from '@angular/animations';
 import { RouterLink, RouterLinkActive } from '@angular/router';
 
@@ -43,9 +51,15 @@ export class SideBarComponent {
 			case 'bot':
 				this.menus = botMenus;
 				break;
-            case 'docker':
-                this.menus = dockerMenus;
-                break;
+			case 'docker':
+				this.menus = dockerMenus;
+				break;
+			case 'nginx':
+				this.menus = nginxMenus;
+				break;
+			case 'ngrok':
+				this.menus = ngrokMenus;
+				break;
 			default:
 				this.menus = dotnetMenus;
 		}

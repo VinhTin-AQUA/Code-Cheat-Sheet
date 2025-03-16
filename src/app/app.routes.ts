@@ -5,6 +5,8 @@ import { DotNetComponent } from './pages/dot-net/dot-net.component';
 import { HtmlCssComponent } from './pages/html-css/html-css.component';
 import { BotComponent } from './pages/bot/bot.component';
 import { DockerComponent } from './pages/docker/docker.component';
+import { NginxComponent } from './pages/nginx/nginx.component';
+import { NgrokComponent } from './pages/ngrok/ngrok.component';
 
 export const routes: Routes = [
 	{ path: '', redirectTo: 'home', pathMatch: 'full' },
@@ -30,7 +32,17 @@ export const routes: Routes = [
 		title: 'Docker',
 	},
     {
+		path: 'nginx/:id',
+		component: NginxComponent,
+		title: 'Nginx',
+	},
+    {
         path: 'html-css/:id', component: HtmlCssComponent, title: 'HTML - CSS'
     },
+    {
+		path: 'ngrok/:id',
+		component: NgrokComponent,
+		title: 'Ngrok',
+	},
 	{ path: '**', redirectTo: 'home', pathMatch: 'full' },
 ];

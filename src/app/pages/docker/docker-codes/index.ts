@@ -10,6 +10,8 @@ import { dockerizeReactCodes } from "./dockerize-react.codes";
 import { dockerizeRedisCodes } from "./dockerize-redis.codes";
 import { dockerizeNestJsCodes } from "./dockerize-nestjs.codes";
 import { addDenpendenciesCodes } from "./add-dependencies.codes";
+import { dockerUtilCodes } from "./docker-utils.codes";
+import { dockerizeKafkaCodes } from "./dockerize-kafka.codes";
 
 export const dockerCodes = {
     'image-commands': imageCommandCodes,
@@ -24,4 +26,6 @@ export const dockerCodes = {
     'dockerize-redis': dockerizeRedisCodes,
     'dockerize-nestjs': dockerizeNestJsCodes,
     'add-dependencies': addDenpendenciesCodes,
+    'docker-utils': dockerUtilCodes,
+    'dockerize-kafka': dockerizeKafkaCodes,
 }

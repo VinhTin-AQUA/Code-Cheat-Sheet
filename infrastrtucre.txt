@@ -1,43 +1,5 @@
 gom nhóm
-	
-Docker
 
-
-    Docker compose sample
-        cache_redis.yml
-        NET_Core.yml
-        Sql Server
-        sql_with_volume.yml
-        Nginx
-        kafka
-    
-    Docker file sample
-        react
-        angular
-    
-
-    Angular Dockerize
-        docker-compose.yml
-        dockerfile
-
-    react vite yarn dockerize
-        docker-compose.yml
-        Dockerfile
-
-    Build App with .NET Core và SQL Server (lik to drive)
-
-    .dockerignore
-
-    Volume
-        Bind Mounts with SQL server.docx
-        export volume.txt
-        import volume.txt
-        Restore data.docx
-        volume.txt
-        Voulumes with SQL server.docx
-
-
-ELK (link to drive)
 
 Flutter
     alert dialog.txt
@@ -128,21 +90,6 @@ NestJS
     Authentication + API + PassportJS + MongoDb + Role Base Access control.docx
     commands.txt
 
-Nginx
-    Cấu hình nginx với SSL
-        docker-compose.yaml
-        nginx.conf
-    Angular – Docker - NGINX.docx
-    Deploy asp net core api với docker compose và nginx - HTTP.docx
-    FireStore.docx
-    Ngăn chặn subdomain cùng truy cập vào 1 tài nguyên.docx
-    Run Asp Net App with HTTPS in Docker.docx
-    Điều hướng đến các subdomain.docx
-
-
-ngrok
-    Link tải ngrok
-    public port.txt
 
 Python
     Kafka python.docx

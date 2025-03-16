@@ -203,7 +203,7 @@ export const botMenus = [
 		name: 'Telegram bot',
 		url: '/bot/telegram-bot',
 	},
-];
+] as any;
 
 export const dockerMenus = [
     {
@@ -266,10 +266,52 @@ export const dockerMenus = [
 				name: 'NestJS',
 				url: '/docker/dockerize-nestjs',
 			},
+            {
+				name: 'Kafka',
+				url: '/docker/dockerize-kafka',
+			},
 		],
 	},
     {
 		name: 'Tải thêm phụ thuộc',
         url: '/docker/add-dependencies'
 	},
-];
+    {
+		name: 'Tiện ích',
+        url: '/docker/docker-utils'
+	},
+] as any;
+
+export const nginxMenus = [
+    {
+		name: 'Config',
+		url: '/nginx/config',
+	},
+    {
+		name: 'Angular – Docker - NGINX',
+		linkToDrive: 'ddd',
+	},
+    {
+		name: 'Deploy asp net core api với docker compose và nginx - HTTP',
+		linkToDrive: 'ddd',
+	},
+    {
+		name: 'Ngăn chặn subdomain cùng truy cập vào 1 tài nguyên',
+		linkToDrive: 'ddd',
+	},
+    {
+		name: 'Run Asp Net App with HTTPS in Docker',
+		linkToDrive: 'ddd',
+	},
+    {
+		name: 'Điều hướng đến các subdomain',
+		linkToDrive: 'ddd',
+	},
+] 
+
+export const ngrokMenus = [
+    {
+		name: 'Commands',
+		url: '/ngrok/ngrok-command',
+	},
+]

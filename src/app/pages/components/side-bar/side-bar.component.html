@@ -1,7 +1,7 @@
 <div class="h-screen">
 	<aside
 		id="default-sidebar"
-		class="transition-all duration-400 overflow-hidden"
+		class="transition-all duration-400"
 		[ngClass]="{
 			'w-[300px]': showSidebar === true,
 			'w-0': showSidebar === false
@@ -11,8 +11,8 @@
 		<div class="h-full">
 			<div
 				id="menu-sidebar"
-				class="scroll-bar duration-500 w-full h-screen py-4 overflow-y-scroll bg-zinc-900 overflow-x-hidden"
-				[ngClass]="{' px-2':showSidebar,' px-0':showSidebar,}"
+				class="scroll-bar duration-500 w-full h-screen py-4 overflow-y-scroll bg-zinc-900"
+				[ngClass]="{'px-2':showSidebar,'px-0  opacity-0':showSidebar === false,}"
 			>
 				<ul class="space-y-2 font-medium">
 					@for (item of menus; track $index) {
@@ -24,7 +24,7 @@
 							[href]="item.linkToDrive"
 							class="flex items-center p-2 text-white rounded-lg hover:bg-gray-100 hover:text-zinc-900 group"
 						>
-							<span class="flex-1 ms-3 whitespace-nowrap">{{ item.name }}</span>
+							<span class="flex-1 ms-3">{{ item.name }}</span>
 							<svg
 								class="h-5 w-5"
 								fill="currentColor"
@@ -43,7 +43,7 @@
 							routerLinkActive="active"
 							class="flex items-center p-2 text-white rounded-lg hover:bg-gray-100 hover:text-zinc-900 group"
 						>
-							<span class="flex-1 ms-3 whitespace-nowrap">{{ item.name }}</span>
+							<span class="flex-1 ms-3">{{ item.name }}</span>
 							<svg
 								class="h-5 w-5"
 								fill="currentColor"
@@ -61,7 +61,7 @@
 							(click)="onShowSubMenu(item)"
 							class="cursor-pointer flex items-center w-full p-2 text-base text-white transition duration-75 rounded-lg hover:bg-gray-100 hover:text-zinc-900"
 						>
-							<span class="flex-1 ms-3 text-left rtl:text-right whitespace-nowrap">{{
+							<span class="flex-1 ms-3 text-left rtl:text-right">{{
 								item.name
 							}}</span>
 							<svg
