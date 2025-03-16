@@ -38,6 +38,9 @@ export class HeaderComponent {
 			case 'ngrok':
 				this.title = 'Ngrok';
 				break;
+			case 'flutter':
+				this.title = 'Flutter';
+				break;
 			default:
 				this.title = '.NET';
 		}

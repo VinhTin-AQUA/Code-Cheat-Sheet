@@ -7,6 +7,7 @@ import { BotComponent } from './pages/bot/bot.component';
 import { DockerComponent } from './pages/docker/docker.component';
 import { NginxComponent } from './pages/nginx/nginx.component';
 import { NgrokComponent } from './pages/ngrok/ngrok.component';
+import { FlutterComponent } from './pages/flutter/flutter.component';
 
 export const routes: Routes = [
 	{ path: '', redirectTo: 'home', pathMatch: 'full' },
@@ -43,6 +44,11 @@ export const routes: Routes = [
 		path: 'ngrok/:id',
 		component: NgrokComponent,
 		title: 'Ngrok',
+	},
+    {
+		path: 'flutter/:id',
+		component: FlutterComponent,
+		title: 'Flutter',
 	},
 	{ path: '**', redirectTo: 'home', pathMatch: 'full' },
 ];

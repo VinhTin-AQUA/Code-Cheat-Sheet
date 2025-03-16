@@ -315,3 +315,36 @@ export const ngrokMenus = [
 		url: '/ngrok/ngrok-command',
 	},
 ]
+
+export const flutterMenus = [
+    {
+		name: 'Fast code',
+        url: '/flutter/fast-code',
+	},
+    {
+		name: 'Components',
+        url: '/flutter/components',
+	},
+    {
+		name: 'Navigator',
+        url: '/flutter/navigator',
+	},
+    {
+		name: 'Build',
+		subMenus: [
+            {
+                name: 'd',
+                url: '/ngrok/ngrok-command',
+            }
+        ]
+	},
+    {
+		name: 'Libraries',
+		subMenus: [
+            {
+                name: 'd',
+                url: '/ngrok/ngrok-command',
+            }
+        ]
+	},
+]

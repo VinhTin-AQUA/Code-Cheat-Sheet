@@ -21,22 +21,22 @@ export const items = [
 	},
 	{
 		name: 'ELK',
-		url: '',
+		linkToDrive: 'aa',
         color: '#005571',
 	},
 	{
 		name: 'Flutter',
-		url: '',
+		url: '/flutter/fast-code',
         color: '#02569B',
 	},
 	{
 		name: 'Jenkins',
-		url: '',
+		linkToDrive: 'aa',
         color: '#D24939',
 	},
 	{
 		name: 'NestJS',
-		url: '',
+		url: 'd',
         color: '#E0234E',
 	},
 	{
@@ -51,32 +51,32 @@ export const items = [
 	},
 	{
 		name: 'Python',
-		url: '',
+		url: 'd',
         color: '#3776AB',
 	},
 	{
 		name: 'Redis',
-		url: '',
+		url: 'd',
         color: '#FF4438',
 	},
 	{
 		name: 'SQL',
-		url: '',
+		linkToDrive: 'aa',
         color: '#003B57',
 	},
 	{
 		name: 'Git',
-		url: '',
+		url: 'd',
         color: '#F05032',
 	},
 	{
 		name: 'visual studio (code)',
-		url: '',
+		linkToDrive: 'aa',
         color: '#6c33af',
 	},
 	{
 		name: 'VPS',
-		url: '',
+		linkToDrive: 'aa',
         color: '#1A1F71',
 	},
     {

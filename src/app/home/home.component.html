@@ -2,13 +2,33 @@
 	<div class="container mx-auto">
 		<div class="p-4">
 			<div class="topic">
-				@for (item of items; track $index) {
+				@for (item of items; track $index) { @if(item.url) {
 				<a [routerLink]="item.url" class="item" style="--color: {{ item.color }}">
-					<span class="hover">
-						<span class="txt">{{ item.name }}</span>
-					</span>
+					<div class="hover">
+						<div class="txt">{{ item.name }}</div>
+					</div>
 				</a>
-				}
+				} @else if(item.linkToDrive) {
+				<a [routerLink]="item.url" class="item" style="--color: {{ item.color }}">
+					<div class="hover">
+						<div class="txt flex items-center justify-center gap-4">
+							<span>{{ item.name }}</span>
+							<svg
+								class="h-5 w-5"
+								fill="currentColor"
+								xmlns="http://www.w3.org/2000/svg"
+								viewBox="0 0 512 512"
+							>
+								<!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+								<path
+									d="M339 314.9L175.4 32h161.2l163.6 282.9H339zm-137.5 23.6L120.9 480h310.5L512 338.5H201.5zM154.1 67.4L0 338.5 80.6 480 237 208.8 154.1 67.4z"
+								/>
+							</svg>
+						</div>
+					</div>
+				</a>
+
+				} }
 			</div>
 		</div>
 	</div>

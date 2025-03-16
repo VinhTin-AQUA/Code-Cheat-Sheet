@@ -2,19 +2,16 @@ gom nhóm
 
 
 Flutter
-    alert dialog.txt
-    build apk.txt
-    loading.txt
-    mật khẩu ứng dụng, sinh trắc học.txt
-    Navigator.txt
-    permission.txt
-    theo dõi logs ở app release.txt
-    tích hợp firestore database.txt
-    điều chỉnh kích thước của button.txt
-    đưa path của ảnh sau khi chọn ảnh về dạng path thực tế.txt
-
-Jenkins (Link to drive)
-
+    alert dialog
+    build apk
+    loading
+    mật khẩu ứng dụng, sinh trắc học
+    Navigator
+    permission
+    theo dõi logs ở app release
+    tích hợp firestore database
+    điều chỉnh kích thước của button
+    đưa path của ảnh sau khi chọn ảnh về dạng path thực tế
 
 NestJS
     dockerize (upload lại lên drive)

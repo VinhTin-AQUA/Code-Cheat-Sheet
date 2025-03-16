@@ -5,6 +5,7 @@ import {
 	botMenus,
 	dockerMenus,
 	dotnetMenus,
+	flutterMenus,
 	htmlMenus,
 	nginxMenus,
 	ngrokMenus,
@@ -59,6 +60,9 @@ export class SideBarComponent {
 				break;
 			case 'ngrok':
 				this.menus = ngrokMenus;
+				break;
+			case 'flutter':
+				this.menus = flutterMenus;
 				break;
 			default:
 				this.menus = dotnetMenus;
