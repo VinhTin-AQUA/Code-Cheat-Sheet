@@ -5,7 +5,7 @@ export const componentCodes = [
 		codeBlocks: [
 			{
 				name: 'Tạo widget',
-				language: 'typescript',
+				language: 'dart',
 				code: `    import 'package:flutter/material.dart';
 
     class AlertDialogHelper {
@@ -37,7 +37,7 @@ export const componentCodes = [
 			},
 			{
 				name: 'Cách sử dụng AlertDialogHelper',
-				language: 'typescript',
+				language: 'dart',
 				code: `    void showSuccessDialog(BuildContext context) {
     AlertDialogHelper.showAlertDialog(context,
         title: "Thành công",
@@ -54,7 +54,7 @@ export const componentCodes = [
 			},
 			{
 				name: 'Sử dụng',
-				language: 'typescript',
+				language: 'dart',
 				code: `     bool check = await callAPI(model);
     if (check == true) {
       if (mounted) {
@@ -74,7 +74,7 @@ export const componentCodes = [
         codeBlocks: [
             {
                 name: 'Tạo widget',
-                language: 'typescript',
+                language: 'dart',
                 code: `    	import 'package:flutter/material.dart';
 	
 	class LoadingWidget extends StatelessWidget {
@@ -97,7 +97,7 @@ export const componentCodes = [
             },
             {
                 name: ' Sử dụng',
-                language: 'typescript',
+                language: 'dart',
                 code: `    setState(() {
       	_isLoading = true;
 	    	});

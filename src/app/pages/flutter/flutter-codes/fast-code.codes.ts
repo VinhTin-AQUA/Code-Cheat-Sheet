@@ -5,7 +5,7 @@ export const fastCodes = [
 		codeBlocks: [
 			{
 				name: 'Bọc Button vào container và điều chỉnh width và height của Container',
-				language: 'typescript',
+				language: 'dart',
 				code: `    Container(
                 width: 35, // Đặt chiều rộng cố định
                 height: 35, // Đặt chiều cao cố định,
@@ -36,7 +36,7 @@ export const fastCodes = [
         codeBlocks: [
             {
                 name: '',
-                language: 'typescript',
+                language: 'dart',
                 code: `    String convertUriToLocalPath(String uriPath) {
         final uri = Uri.parse(uriPath);
         return uri.toFilePath(); // Chuyển thành đường dẫn cục bộ

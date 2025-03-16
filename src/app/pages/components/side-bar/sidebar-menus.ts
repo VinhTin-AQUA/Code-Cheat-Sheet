@@ -206,9 +206,9 @@ export const botMenus = [
 ] as any;
 
 export const dockerMenus = [
-    {
+	{
 		name: 'Login',
-		url: '/docker/login'
+		url: '/docker/login',
 	},
 	{
 		name: 'Commands',
@@ -217,134 +217,150 @@ export const dockerMenus = [
 				name: 'Image commands',
 				url: '/docker/image-commands',
 			},
-            {
+			{
 				name: 'Container commands',
 				url: '/docker/container-commands',
 			},
 		],
 	},
-    {
+	{
 		name: 'Volume',
-		linkToDrive: '/docker/login'
+		linkToDrive: '/docker/login',
 	},
-    {
+	{
 		name: 'Docker compose',
-		url: '/docker/docker-compose'
+		url: '/docker/docker-compose',
 	},
-    {
+	{
 		name: 'Docker .ignore',
-		url: '/docker/docker-ignore'
+		url: '/docker/docker-ignore',
 	},
-    {
+	{
 		name: 'Dockerize',
 		subMenus: [
 			{
 				name: 'Angular',
 				url: '/docker/dockerize-angular',
 			},
-            {
+			{
 				name: 'Asp NET API, MVC',
 				url: '/docker/dockerize-netcore',
 			},
-            {
+			{
 				name: 'SQL server',
 				url: '/docker/dockerize-sql',
 			},
-            {
+			{
 				name: '.NET + SQL server',
 				linkToDrive: '/docker/dockerize-net-sql',
 			},
-            {
+			{
 				name: 'React',
 				url: '/docker/dockerize-react',
 			},
-            {
+			{
 				name: 'Redis',
 				url: '/docker/dockerize-redis',
 			},
-            {
+			{
 				name: 'NestJS',
 				url: '/docker/dockerize-nestjs',
 			},
-            {
+			{
 				name: 'Kafka',
 				url: '/docker/dockerize-kafka',
 			},
 		],
 	},
-    {
+	{
 		name: 'Tải thêm phụ thuộc',
-        url: '/docker/add-dependencies'
+		url: '/docker/add-dependencies',
 	},
-    {
+	{
 		name: 'Tiện ích',
-        url: '/docker/docker-utils'
+		url: '/docker/docker-utils',
 	},
 ] as any;
 
 export const nginxMenus = [
-    {
+	{
 		name: 'Config',
 		url: '/nginx/config',
 	},
-    {
+	{
 		name: 'Angular – Docker - NGINX',
 		linkToDrive: 'ddd',
 	},
-    {
+	{
 		name: 'Deploy asp net core api với docker compose và nginx - HTTP',
 		linkToDrive: 'ddd',
 	},
-    {
+	{
 		name: 'Ngăn chặn subdomain cùng truy cập vào 1 tài nguyên',
 		linkToDrive: 'ddd',
 	},
-    {
+	{
 		name: 'Run Asp Net App with HTTPS in Docker',
 		linkToDrive: 'ddd',
 	},
-    {
+	{
 		name: 'Điều hướng đến các subdomain',
 		linkToDrive: 'ddd',
 	},
-] 
+];
 
 export const ngrokMenus = [
-    {
+	{
 		name: 'Commands',
 		url: '/ngrok/ngrok-command',
 	},
-]
+];
 
 export const flutterMenus = [
-    {
+	{
 		name: 'Fast code',
-        url: '/flutter/fast-code',
+		url: '/flutter/fast-code',
 	},
-    {
+	{
 		name: 'Components',
-        url: '/flutter/components',
+		url: '/flutter/components',
 	},
-    {
+	{
 		name: 'Navigator',
-        url: '/flutter/navigator',
+		url: '/flutter/navigator',
 	},
-    {
+	{
 		name: 'Build',
 		subMenus: [
-            {
-                name: 'd',
-                url: '/ngrok/ngrok-command',
-            }
-        ]
+			{
+				name: 'Build APK android',
+				url: '/flutter/build',
+			},
+		],
 	},
-    {
+	{
 		name: 'Libraries',
 		subMenus: [
+			{
+				name: 'Biometrics',
+				url: '/flutter/biometrics',
+			},
             {
-                name: 'd',
-                url: '/ngrok/ngrok-command',
-            }
-        ]
+				name: 'flutter_secure_storage',
+				url: '/flutter/flutter_secure_storage',
+			},
+            {
+				name: 'Firebase Database',
+				url: '/flutter/firebase-database',
+			},
+            {
+				name: 'Permission',
+				url: '/flutter/permission',
+			},
+		],
 	},
-]
+    {
+		name: 'Theo dõi log ở app release',
+		url: '/flutter/theo-doi-log-release'
+	},
+];
