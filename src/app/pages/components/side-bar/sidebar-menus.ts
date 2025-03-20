@@ -422,9 +422,9 @@ export const nestJSMenus = [
 	{
 		name: 'Other',
 		subMenus: [
-            { name: 'Áp dụng module cho toàn cục', url: '/nestjs/ap-dung-global-module' },
+			{ name: 'Áp dụng module cho toàn cục', url: '/nestjs/ap-dung-global-module' },
 			{ name: 'decorators', url: '/nestjs/decorators' },
-            { name: 'Đọc ghi file', url: '/nestjs/doc-ghi-file' },
+			{ name: 'Đọc ghi file', url: '/nestjs/doc-ghi-file' },
 			{ name: 'Gọi API bên thứ 3 trong nestjs', url: '/nestjs/call-thirty-api' },
 			{ name: 'gủi api dưới nền', url: '/nestjs/call-api-duoi-nen' },
 			{ name: 'Transaction', linkToDrive: 'a' },
@@ -462,4 +462,19 @@ export const nestJSMenus = [
 		name: 'Prisma',
 		linkToDrive: 'a',
 	},
+];
+
+export const pythonMenus = [
+	{
+		name: 'Kafka - Python',
+		linkToDrive: 'a',
+	},
+    {
+        name:'setup',
+        url: '/python/setup'
+    },
+    {
+        name:'Requirements',
+        url: '/python/requirements'
+    }
 ];

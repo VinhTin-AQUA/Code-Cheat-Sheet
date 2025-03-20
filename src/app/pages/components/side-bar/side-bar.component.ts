@@ -10,6 +10,7 @@ import {
 	nestJSMenus,
 	nginxMenus,
 	ngrokMenus,
+	pythonMenus,
 } from './sidebar-menus';
 import { animate, style, transition, trigger } from '@angular/animations';
 import { RouterLink, RouterLinkActive } from '@angular/router';
@@ -67,6 +68,9 @@ export class SideBarComponent {
 				break;
 			case 'nestjs':
 				this.menus = nestJSMenus;
+				break;
+			case 'python':
+				this.menus = pythonMenus;
 				break;
 			default:
 				this.menus = dotnetMenus;

@@ -51,7 +51,7 @@ export const items = [
 	},
 	{
 		name: 'Python',
-		url: 'd',
+		url: '/python/setup',
         color: '#3776AB',
 	},
 	{

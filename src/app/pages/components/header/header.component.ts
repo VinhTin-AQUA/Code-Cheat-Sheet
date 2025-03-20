@@ -44,6 +44,9 @@ export class HeaderComponent {
 			case 'nestjs':
 				this.title = 'NestJS';
 				break;
+			case 'python':
+				this.title = 'Python';
+				break;
 			default:
 				this.title = '.NET';
 		}

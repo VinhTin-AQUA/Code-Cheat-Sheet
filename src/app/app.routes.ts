@@ -9,6 +9,7 @@ import { NginxComponent } from './pages/nginx/nginx.component';
 import { NgrokComponent } from './pages/ngrok/ngrok.component';
 import { FlutterComponent } from './pages/flutter/flutter.component';
 import { NestjsComponent } from './pages/nestjs/nestjs.component';
+import { PythonComponent } from './pages/python/python.component';
 
 export const routes: Routes = [
 	{ path: '', redirectTo: 'home', pathMatch: 'full' },
@@ -54,7 +55,12 @@ export const routes: Routes = [
     {
 		path: 'nestjs/:id',
 		component: NestjsComponent,
-		title: 'nestjs',
+		title: 'Nestjs',
+	},
+    {
+		path: 'python/:id',
+		component: PythonComponent,
+		title: 'Python',
 	},
 	{ path: '**', redirectTo: 'home', pathMatch: 'full' },
 ];

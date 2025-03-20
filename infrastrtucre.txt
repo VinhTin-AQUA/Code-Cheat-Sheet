@@ -5,10 +5,7 @@ ANGULAR
     Cuộn nội dung bên trong thẻ div
     Truyền dữ liệu giữa các component sử dụng Output
 
-Python
-    Kafka python.docx
-    requirements.txt
-    setup-python.txt
+
 
 Redis
     delete_key.txt
