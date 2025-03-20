@@ -21,7 +21,7 @@ export const items = [
 	},
 	{
 		name: 'ELK',
-		linkToDrive: 'aa',
+		linkToDrive: 'https://drive.google.com/drive/folders/1TS5uAPvOZkZ7v_Wycjoo-3e6Hf8DAD2V?usp=drive_link',
         color: '#005571',
 	},
 	{
@@ -56,27 +56,27 @@ export const items = [
 	},
 	{
 		name: 'Redis',
-		url: 'd',
+		linkToDrive: 'https://drive.google.com/drive/folders/14pbCFgxqVQM5aLOjm8E1TcQyG8p_vxNN?usp=drive_link',
         color: '#FF4438',
 	},
 	{
 		name: 'SQL',
-		linkToDrive: 'aa',
+		linkToDrive: 'https://drive.google.com/drive/folders/10ejhy5uMHar5yEBDgobRrLaenV9sXsU2?usp=drive_link',
         color: '#003B57',
 	},
 	{
 		name: 'Git',
-		url: 'd',
+		linkToDrive: 'https://drive.google.com/drive/folders/1GTl-1EEPyrNG4JPXuMVkR_Jl7HoxHO0t?usp=drive_link',
         color: '#F05032',
 	},
 	{
 		name: 'visual studio (code)',
-		linkToDrive: 'aa',
+		linkToDrive: 'https://drive.google.com/drive/folders/1laqZM78u_aSBvnEeJ53DDDxzWonXlt0b?usp=drive_link',
         color: '#6c33af',
 	},
 	{
 		name: 'VPS',
-		linkToDrive: 'aa',
+		linkToDrive: 'https://drive.google.com/drive/folders/1uk2dPXZ_N5W1O3WMIbeLjeGRMKjyO0sJ?usp=drive_link',
         color: '#1A1F71',
 	},
     {

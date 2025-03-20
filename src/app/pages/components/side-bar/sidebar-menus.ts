@@ -32,27 +32,27 @@ export const dotnetMenus = [
 	},
 	{
 		name: 'NET CORE MVC',
-		linkToDrive: 'a',
+		linkToDrive: 'https://drive.google.com/drive/folders/1aqIF_lkgmOXBmigs8eaBaDX9D3R1U2dV?usp=drive_link',
 	},
 	{
 		name: 'WPF',
-		linkToDrive: 'a',
+		linkToDrive: 'https://drive.google.com/drive/folders/1T_yvC8QLvuLJh0zg_KbJYZdDAK-YjdVq?usp=drive_link',
 	},
 	{
 		name: 'Clean Architecture',
-		linkToDrive: 'https://fontawesome.com/icons/share-from-square?f=classic&s=solid',
+		linkToDrive: 'https://drive.google.com/drive/folders/19yBNqbQmeYWiDoNjdxmjrAcW80nvy4rp?usp=drive_link',
 	},
 	{
 		name: 'Caching',
-		linkToDrive: 'a',
+		linkToDrive: 'https://drive.google.com/drive/folders/1Ij6fQcu_bc6OlV1NbPPDLWDINA9Ju3K6?usp=drive_link',
 	},
 	{
 		name: 'Deploy',
-		linkToDrive: 'a',
+		linkToDrive: 'https://drive.google.com/drive/folders/19I7QUFFMV8nhp9oKQt-i6mhFlEZGsI9E?usp=drive_link',
 	},
 	{
 		name: 'Packages - Libraries',
-		linkToDrive: 'a',
+		linkToDrive: 'https://drive.google.com/drive/folders/1d9-aMYspdcV4bkYZ7tAAENn8wOdbga-h?usp=drive_link',
 	},
 ] as any;
 

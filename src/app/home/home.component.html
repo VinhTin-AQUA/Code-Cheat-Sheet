@@ -9,7 +9,7 @@
 					</div>
 				</a>
 				} @else if(item.linkToDrive) {
-				<a [routerLink]="item.url" class="item" style="--color: {{ item.color }}">
+				<a [href]="item.linkToDrive" target="_blank" class="item" style="--color: {{ item.color }}">
 					<div class="hover">
 						<div class="txt flex items-center justify-center gap-4">
 							<span>{{ item.name }}</span>
