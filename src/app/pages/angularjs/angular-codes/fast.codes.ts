@@ -539,4 +539,82 @@ export const fastCodes = [
 			},
 		],
 	},
+	{
+		id: 'scroll-to-element-in-div',
+		name: 'Scroll đến element trong thẻ div từ bên ngoài thẻ div',
+		codeBlocks: [
+			{
+				name: 'HTML',
+				language: 'html',
+				code: `    <div class="w-[334px]">
+        <button
+            class="text-left text-blue-600 hover:text-blue-800 hover:underline cursor-pointer"
+            (click)="scrollTo(item.id)"
+        >
+            {{ item.name }}
+        </button>
+    </div>
+    <div
+        #contentContainer
+        class="flex-1 overflow-y-scroll scroll-bar max-h-[calc(100vh-40px)]"
+    >
+        <div class="p-3">
+            <!-- item -->
+            @for (item of codes; track $index) { @if(item.linkToDrive) {
+            <app-drive-button [id]="item.id" [linkToDrive]="item.linkToDrive" [name]="item.name"></app-drive-button>
+            } @else {
+            <app-code-blocks [id]="item.id" [name]="item.name" [codeBlocks]="item.codeBlocks"></app-code-blocks>
+            } }
+        </div>
+    </div>`,
+			},
+			{
+				name: 'TypeScript',
+				language: 'typescript',
+				code: `    @ViewChild('contentContainer') contentContainer!: ElementRef;
+        scrollTo(sectionId: string) {
+        const element = document.getElementById(sectionId);
+        if (element) {
+            this.contentContainer.nativeElement.scrollTo({
+                top: element.offsetTop,
+                behavior: 'smooth',
+            });
+        }
+    }`,
+			},
+		],
+	},
+	{
+		id: 'truyen-du-lieu-giua-cac-component',
+		name: 'Truyền dữ liệu giữa các component',
+		codeBlocks: [
+			{
+				name: 'Sử dụng Output',
+                language: 'typescript',
+                code: `    // component_1.ts
+    @Output() dataEmitter = new EventEmitter<boolean>();
+
+    // parent component: nhận dữ liệu trong component chứa component_1
+        <div class="sticky-nav z-20">
+            <app-header
+                (dataEmitter)="receiveData($event)"
+            ></app-header>
+        </div>
+            
+        receiveData(data: boolean) {
+            this.showSidebar = data;
+        }
+`,
+			},
+            {
+				name: 'Sử dụng Input',
+                language: 'typescript',
+                code: `    // component_1.ts
+    @Input() menuType: string = 'dotnet';
+
+    // parent component: nhận dữ liệu trong component chứa component_1
+    <app-side-bar menuType="angular"></app-side-bar>	`,
+			},
+		],
+	},
 ];

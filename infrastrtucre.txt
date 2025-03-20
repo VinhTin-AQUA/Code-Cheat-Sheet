@@ -1,11 +1,5 @@
 gom nhóm
 
-ANGULAR
-    sử dụng thư viện hightjs
-    Cuộn nội dung bên trong thẻ div
-    Truyền dữ liệu giữa các component sử dụng Output
-
-
 
 Redis
     delete_key.txt

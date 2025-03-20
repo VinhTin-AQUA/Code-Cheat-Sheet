@@ -138,6 +138,10 @@ export const angularMenus = [
 				name: 'Export excel file from data',
 				linkToDrive: '/angular-js/export-excel-file-from-data',
 			},
+            {
+				name: 'Highlight-JS',
+				linkToDrive: '/angular-js/export-excel-file-from-data',
+			},
 			{ name: 'jwt-decode', url: '/angular-js/jwt-decode' },
 			{ name: 'ng-select', url: '/angular-js/ng-select' },
 			{ name: 'ngx-quill', url: '/angular-js/ngx-quill' },

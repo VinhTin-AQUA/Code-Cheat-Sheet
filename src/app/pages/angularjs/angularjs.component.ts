@@ -10,7 +10,13 @@ import { CodeBlocksComponent } from '../components/code-blocks/code-blocks.compo
 
 @Component({
 	selector: 'app-angularjs',
-	imports: [SideBarComponent, HeaderComponent, CommonModule, DriveButtonComponent, CodeBlocksComponent],
+	imports: [
+		SideBarComponent,
+		HeaderComponent,
+		CommonModule,
+		DriveButtonComponent,
+		CodeBlocksComponent,
+	],
 	templateUrl: './angularjs.component.html',
 	styleUrl: './angularjs.component.scss',
 })
@@ -48,10 +54,10 @@ export class AngularjsComponent {
 			this.showSidebar = true;
 		}
 
-        if (check === true && this.showSubSidebar === true) {
-            this.showSubSidebar = false;
+		if (check === true && this.showSubSidebar === true) {
+			this.showSubSidebar = false;
 		} else if (check === false && this.showSubSidebar === false) {
-            this.showSubSidebar = true;
+			this.showSubSidebar = true;
 		}
 	}
 
@@ -62,8 +68,6 @@ export class AngularjsComponent {
 	onDataShowSubSidebar(data: boolean) {
 		this.showSubSidebar = data;
 	}
-
-	
 
 	scrollTo(sectionId: string) {
 		const element = document.getElementById(sectionId);
