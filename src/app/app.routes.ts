@@ -8,6 +8,7 @@ import { DockerComponent } from './pages/docker/docker.component';
 import { NginxComponent } from './pages/nginx/nginx.component';
 import { NgrokComponent } from './pages/ngrok/ngrok.component';
 import { FlutterComponent } from './pages/flutter/flutter.component';
+import { NestjsComponent } from './pages/nestjs/nestjs.component';
 
 export const routes: Routes = [
 	{ path: '', redirectTo: 'home', pathMatch: 'full' },
@@ -49,6 +50,11 @@ export const routes: Routes = [
 		path: 'flutter/:id',
 		component: FlutterComponent,
 		title: 'Flutter',
+	},
+    {
+		path: 'nestjs/:id',
+		component: NestjsComponent,
+		title: 'nestjs',
 	},
 	{ path: '**', redirectTo: 'home', pathMatch: 'full' },
 ];

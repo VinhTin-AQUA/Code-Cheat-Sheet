@@ -1,79 +1,9 @@
 gom nhóm
 
-NestJS
-    dockerize (upload lại lên drive)
-    GraphQL
-        sample mutation
-            create.txt
-        sample query
-            find_all.txt
-            find_one.txt
-            truy vấn lồng nhau.txt
-
-        1 setup GraphQL.docx (link to drive)
-        2 Intergrate TypOrm.docx (link to drive)
-        3 Validation.docx (link to drive)
-        4 Relation.docx (link to drive)
-        5 Subcription.docx (link to drive)
-        6 Mapped Types.docx (link to drive)
-        7 Field midleware.docx (link to drive)
-
-    libraries
-        API Versioning.docx
-        config_env.txt
-        ExcelJS.docx
-        Kafka NestJS.docx
-        MinIO - NestJS.docx
-        puppeteer.docx
-        redis.txt
-        send-mail.txt
-        Swagger.docx
-        Upload file multer.docx
-        Validation.docx
-
-    middleware
-        Global exception filter.docx
-        Middleware catch API.docx
-
-    Mongoose
-        Join sử dụng lookup – nestjs – mongodb.docx
-        mongodb.docx
-        Một số query monogodb - nestjs.docx
-        Populate query – mongoose - nestjs.docx
-        relation.docx
-
-    other
-        decorators.txt
-        Gọi API bên thứ 3 trong nestjs.docx
-        gủi api dưới nền.txt
-        hot_reload.txt
-        Parsing data trong API.docx
-        setup-graphql.txt
-        setup_orm_project.txt
-        Transaction.docx
-        tự động mở trình duyệt swagger sau khi chạy server.txt
-        Xử lý không lưu các thuộc tính không nằm trong DTO.docx
-        Áp dung module cho toàn cục.txt
-        Đọc ghi file.docx
-
-    prisma
-        prisma_migration.txt
-        Prisma-mysql.docx
-
-
-    TypeOrm Mysql
-        1_config.txt
-        2 TypeORM with mysql.docx
-        3 Typeorm relations.docx
-        4 Authentication - PassportJS.docx
-
-
-    websocket
-        Web Socket NestJS + ANGULAR.docx
-
-    Authentication + API + PassportJS + MongoDb + Role Base Access control.docx
-    commands.txt
-
+ANGULAR
+    sử dụng thư viện hightjs
+    Cuộn nội dung bên trong thẻ div
+    Truyền dữ liệu giữa các component sử dụng Output
 
 Python
     Kafka python.docx

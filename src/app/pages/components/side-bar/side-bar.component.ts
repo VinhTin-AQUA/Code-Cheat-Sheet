@@ -7,6 +7,7 @@ import {
 	dotnetMenus,
 	flutterMenus,
 	htmlMenus,
+	nestJSMenus,
 	nginxMenus,
 	ngrokMenus,
 } from './sidebar-menus';
@@ -63,6 +64,9 @@ export class SideBarComponent {
 				break;
 			case 'flutter':
 				this.menus = flutterMenus;
+				break;
+			case 'nestjs':
+				this.menus = nestJSMenus;
 				break;
 			default:
 				this.menus = dotnetMenus;

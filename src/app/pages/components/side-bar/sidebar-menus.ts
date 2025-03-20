@@ -345,22 +345,121 @@ export const flutterMenus = [
 				name: 'Biometrics',
 				url: '/flutter/biometrics',
 			},
-            {
+			{
 				name: 'flutter_secure_storage',
 				url: '/flutter/flutter_secure_storage',
 			},
-            {
+			{
 				name: 'Firebase Database',
 				url: '/flutter/firebase-database',
 			},
-            {
+			{
 				name: 'Permission',
 				url: '/flutter/permission',
 			},
 		],
 	},
-    {
+	{
 		name: 'Theo dõi log ở app release',
-		url: '/flutter/theo-doi-log-release'
+		url: '/flutter/theo-doi-log-release',
+	},
+];
+
+export const nestJSMenus = [
+	{
+		name: 'Commands',
+		url: 'nestjs-commands',
+	},
+	{
+		name: 'Libraries',
+		subMenus: [
+			{
+				name: 'config_env',
+				linkToDrive: '/nestjs/config-env',
+			},
+			{
+				name: 'API Versioning',
+				linkToDrive: '/nestjs/global-exception-filter',
+			},
+			{
+				name: 'ExcelJS',
+				linkToDrive: '/nestjs/global-exception-filter',
+			},
+			{
+				name: 'Kafka NestJS',
+				linkToDrive: '/nestjs/global-exception-filter',
+			},
+			{
+				name: 'MinIO - NestJS',
+				linkToDrive: '/nestjs/global-exception-filter',
+			},
+			{
+				name: 'Puppeteer',
+				linkToDrive: '/nestjs/global-exception-filter',
+			},
+			{
+				name: 'Redis',
+				linkToDrive: '/nestjs/global-exception-filter',
+			},
+			{
+				name: 'Send-mail',
+				linkToDrive: '/nestjs/global-exception-filter',
+			},
+			{
+				name: 'Swagger',
+				linkToDrive: '/nestjs/global-exception-filter',
+			},
+			{
+				name: 'Upload file multer',
+				linkToDrive: '/nestjs/global-exception-filter',
+			},
+			{
+				name: 'Validation',
+				linkToDrive: '/nestjs/global-exception-filter',
+			},
+		],
+	},
+	{
+		name: 'Other',
+		subMenus: [
+            { name: 'Áp dụng module cho toàn cục', url: '/nestjs/ap-dung-global-module' },
+			{ name: 'decorators', url: '/nestjs/decorators' },
+            { name: 'Đọc ghi file', url: '/nestjs/doc-ghi-file' },
+			{ name: 'Gọi API bên thứ 3 trong nestjs', url: '/nestjs/call-thirty-api' },
+			{ name: 'gủi api dưới nền', url: '/nestjs/call-api-duoi-nen' },
+			{ name: 'Transaction', linkToDrive: 'a' },
+			{ name: 'setup-graphql', linkToDrive: 'â' },
+			{ name: 'setup_orm_project', linkToDrive: 'a' },
+			{ name: 'Transaction', linkToDrive: 'a' },
+			{ name: 'Xử lý binding DTO vào Object', linkToDrive: 'q' },
+		],
+	},
+	{
+		name: 'Dockerize',
+		linkToDrive: 'a',
+	},
+	{
+		name: 'GraphQL',
+		linkToDrive: 'a',
+	},
+	{
+		name: 'Mongoose',
+		linkToDrive: 'a',
+	},
+	{
+		name: 'Authentication + API + PassportJS + MongoDb + Role Base Access control',
+		linkToDrive: 'a',
+	},
+	{
+		name: 'Websocket',
+		linkToDrive: 'a',
+	},
+	{
+		name: 'TypeOrm Mysql',
+		linkToDrive: 'a',
+	},
+	{
+		name: 'Prisma',
+		linkToDrive: 'a',
 	},
 ];

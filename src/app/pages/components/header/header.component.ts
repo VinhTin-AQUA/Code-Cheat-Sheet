@@ -41,6 +41,9 @@ export class HeaderComponent {
 			case 'flutter':
 				this.title = 'Flutter';
 				break;
+			case 'nestjs':
+				this.title = 'NestJS';
+				break;
 			default:
 				this.title = '.NET';
 		}
