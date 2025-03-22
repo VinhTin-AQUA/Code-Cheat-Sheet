@@ -111,7 +111,7 @@ export const angularMenus = [
 			},
 			{
 				name: 'Subject_RxJS',
-				linkToDrive: '/angular-js/Subject_RxJS',
+				linkToDrive: 'https://docs.google.com/document/d/1AQHegi7dfbl9E-OvOW-KgsuYM71sjYXP/edit?usp=drive_link&ouid=105054910257021670270&rtpof=true&sd=true',
 			},
 		],
 	},
@@ -134,13 +134,9 @@ export const angularMenus = [
 				name: 'Echarts angular',
 				url: '/angular-js/echarts-angular',
 			},
-			{
-				name: 'Export excel file from data',
-				linkToDrive: '/angular-js/export-excel-file-from-data',
-			},
             {
 				name: 'Highlight-JS',
-				linkToDrive: '/angular-js/export-excel-file-from-data',
+				linkToDrive: 'https://docs.google.com/document/d/1Ztl-idFKtqjc7MbqXbQtBMuC0U6r_W-4/edit?usp=drive_link&ouid=105054910257021670270&rtpof=true&sd=true',
 			},
 			{ name: 'jwt-decode', url: '/angular-js/jwt-decode' },
 			{ name: 'ng-select', url: '/angular-js/ng-select' },
@@ -229,7 +225,7 @@ export const dockerMenus = [
 	},
 	{
 		name: 'Volume',
-		linkToDrive: '/docker/login',
+		linkToDrive: 'https://drive.google.com/drive/folders/1btCvd9ikVzTqjKS1Mjj0DLPtHBbHYipP?usp=drive_link',
 	},
 	{
 		name: 'Docker compose',
@@ -256,7 +252,7 @@ export const dockerMenus = [
 			},
 			{
 				name: '.NET + SQL server',
-				linkToDrive: '/docker/dockerize-net-sql',
+				linkToDrive: 'https://drive.google.com/drive/folders/1bJXRFfiNyoNklyTs3pTD_sm8bs6g1psc?usp=drive_link',
 			},
 			{
 				name: 'React',
@@ -293,23 +289,23 @@ export const nginxMenus = [
 	},
 	{
 		name: 'Angular – Docker - NGINX',
-		linkToDrive: 'ddd',
+		linkToDrive: 'https://docs.google.com/document/d/1dbk-PEteoayAqXpQNNSE2Kw741TqpPPr/edit?usp=drive_link&ouid=105054910257021670270&rtpof=true&sd=true',
 	},
 	{
 		name: 'Deploy asp net core api với docker compose và nginx - HTTP',
-		linkToDrive: 'ddd',
+		linkToDrive: 'https://docs.google.com/document/d/1i78xYWolHl6hGkOY3rr_CRC_NXxw6DgB/edit?usp=drive_link&ouid=105054910257021670270&rtpof=true&sd=true',
 	},
 	{
 		name: 'Ngăn chặn subdomain cùng truy cập vào 1 tài nguyên',
-		linkToDrive: 'ddd',
+		linkToDrive: 'https://docs.google.com/document/d/1Yd7oPUO5AX8UDjfgOGuz8au4adyBlnM8/edit?usp=drive_link&ouid=105054910257021670270&rtpof=true&sd=true',
 	},
 	{
 		name: 'Run Asp Net App with HTTPS in Docker',
-		linkToDrive: 'ddd',
+		linkToDrive: 'https://docs.google.com/document/d/1nHrL5i8WuL_zdizxkBFl7nO-baUbiQwf/edit?usp=drive_link&ouid=105054910257021670270&rtpof=true&sd=true',
 	},
 	{
 		name: 'Điều hướng đến các subdomain',
-		linkToDrive: 'ddd',
+		linkToDrive: 'https://docs.google.com/document/d/1umW70_vacG_56wuwVOsrcZoMkGZHMMqJ/edit?usp=drive_link&ouid=105054910257021670270&rtpof=true&sd=true',
 	},
 ];
 
@@ -379,47 +375,47 @@ export const nestJSMenus = [
 		subMenus: [
 			{
 				name: 'config_env',
-				linkToDrive: '/nestjs/config-env',
+				linkToDrive: 'https://drive.google.com/file/d/1GTR0wj3wDbmBgZNJXe7ffG0qSSLHJsgE/view?usp=drive_link',
 			},
 			{
 				name: 'API Versioning',
-				linkToDrive: '/nestjs/global-exception-filter',
+				linkToDrive: 'https://docs.google.com/document/d/1XoT_JkUN1ckPvll2OGo7ketd3uJz-gd7/edit?usp=drive_link&ouid=105054910257021670270&rtpof=true&sd=true',
 			},
 			{
 				name: 'ExcelJS',
-				linkToDrive: '/nestjs/global-exception-filter',
+				linkToDrive: 'https://docs.google.com/document/d/19BCcUiGwZ0MFA6W1GC7jKA7HxyFY4JiY/edit?usp=drive_link&ouid=105054910257021670270&rtpof=true&sd=true',
 			},
 			{
 				name: 'Kafka NestJS',
-				linkToDrive: '/nestjs/global-exception-filter',
+				linkToDrive: 'https://docs.google.com/document/d/1LkRW5QgB10hYlWDnoDOIdQ_NA-bamqn2/edit?usp=drive_link&ouid=105054910257021670270&rtpof=true&sd=true',
 			},
 			{
 				name: 'MinIO - NestJS',
-				linkToDrive: '/nestjs/global-exception-filter',
+				linkToDrive: 'https://docs.google.com/document/d/1d071bR7tJe_juFbRyTrg9ypsTjPLYG_6/edit?usp=drive_link&ouid=105054910257021670270&rtpof=true&sd=true',
 			},
 			{
 				name: 'Puppeteer',
-				linkToDrive: '/nestjs/global-exception-filter',
+				linkToDrive: 'https://docs.google.com/document/d/1ULFz2gnowXxUuweD_JYjmVyMng91WQlZ/edit?usp=drive_link&ouid=105054910257021670270&rtpof=true&sd=true',
 			},
 			{
 				name: 'Redis',
-				linkToDrive: '/nestjs/global-exception-filter',
+				linkToDrive: 'https://drive.google.com/file/d/1EO5y1LZB637xLLe8NIcMV86L7oTn9RZ3/view?usp=drive_link',
 			},
 			{
 				name: 'Send-mail',
-				linkToDrive: '/nestjs/global-exception-filter',
+				linkToDrive: 'https://drive.google.com/file/d/1pyNiCZ1EZR0oHQRPp8fGRP3yso9GVt75/view?usp=drive_link',
 			},
 			{
 				name: 'Swagger',
-				linkToDrive: '/nestjs/global-exception-filter',
+				linkToDrive: 'https://docs.google.com/document/d/1zJ9SkQcoHY3my--Y8T5NZwbPO0sL3igZ/edit?usp=drive_link&ouid=105054910257021670270&rtpof=true&sd=true',
 			},
 			{
 				name: 'Upload file multer',
-				linkToDrive: '/nestjs/global-exception-filter',
+				linkToDrive: 'https://docs.google.com/document/d/1XYzJPbnkA-DkGAMqHhRerq_RRESQ9eCD/edit?usp=drive_link&ouid=105054910257021670270&rtpof=true&sd=true',
 			},
 			{
 				name: 'Validation',
-				linkToDrive: '/nestjs/global-exception-filter',
+				linkToDrive: 'https://docs.google.com/document/d/1ujN_BYxUdFY-IQNaEQo_UErG_Y-Bc1te/edit?usp=drive_link&ouid=105054910257021670270&rtpof=true&sd=true',
 			},
 		],
 	},
@@ -431,47 +427,47 @@ export const nestJSMenus = [
 			{ name: 'Đọc ghi file', url: '/nestjs/doc-ghi-file' },
 			{ name: 'Gọi API bên thứ 3 trong nestjs', url: '/nestjs/call-thirty-api' },
 			{ name: 'gủi api dưới nền', url: '/nestjs/call-api-duoi-nen' },
-			{ name: 'Transaction', linkToDrive: 'a' },
-			{ name: 'setup-graphql', linkToDrive: 'â' },
-			{ name: 'setup_orm_project', linkToDrive: 'a' },
-			{ name: 'Transaction', linkToDrive: 'a' },
-			{ name: 'Xử lý binding DTO vào Object', linkToDrive: 'q' },
+			{ name: 'Transaction', linkToDrive: 'https://docs.google.com/document/d/1jYup4_EG4-zvoTPIAVeKqsw9oY1uFUMG/edit?usp=drive_link&ouid=105054910257021670270&rtpof=true&sd=true' },
+			{ name: 'setup-graphql', linkToDrive: 'https://drive.google.com/file/d/1iazz5QSbVvHFaNLLrFR10xoSCQ3yFuoT/view?usp=drive_link' },
+			{ name: 'setup_orm_project', linkToDrive: 'https://drive.google.com/file/d/1kySbmli55NhfMTKR0ZJK1WhFwfm3Fedf/view?usp=drive_link' },
+			{ name: 'Transaction', linkToDrive: 'https://docs.google.com/document/d/1jYup4_EG4-zvoTPIAVeKqsw9oY1uFUMG/edit?usp=drive_link&ouid=105054910257021670270&rtpof=true&sd=true' },
+			{ name: 'Xử lý binding DTO vào Object', linkToDrive: 'https://docs.google.com/document/d/1V2044l4pC-l3YxWy_pYWWkH5m754ZHiv/edit?usp=drive_link&ouid=105054910257021670270&rtpof=true&sd=true' },
 		],
 	},
 	{
 		name: 'Dockerize',
-		linkToDrive: 'a',
+		linkToDrive: 'https://drive.google.com/drive/folders/1mN50NtCcG_RA2-qNe-Ik0Ms4N7Pc_Rqt?usp=drive_link',
 	},
 	{
 		name: 'GraphQL',
-		linkToDrive: 'a',
+		linkToDrive: 'https://drive.google.com/drive/folders/1w3CpRBFz8Gji6PTLQAKEVOkpdinIG60C?usp=drive_link',
 	},
 	{
 		name: 'Mongoose',
-		linkToDrive: 'a',
+		linkToDrive: 'https://drive.google.com/drive/folders/1w24SSjg8QU8myVv6MJxN9E_LCfqkXAkr?usp=drive_link',
 	},
 	{
 		name: 'Authentication + API + PassportJS + MongoDb + Role Base Access control',
-		linkToDrive: 'a',
+		linkToDrive: 'https://docs.google.com/document/d/1cGYOVXPFbBNyRu3wEmeYVwGlvCLDXZFm/edit?usp=drive_link&ouid=105054910257021670270&rtpof=true&sd=true',
 	},
 	{
 		name: 'Websocket',
-		linkToDrive: 'a',
+		linkToDrive: 'https://drive.google.com/drive/folders/1foQQfgw9s3zPcsYaWR7G_QmePK3azjpZ?usp=drive_link',
 	},
 	{
 		name: 'TypeOrm Mysql',
-		linkToDrive: 'a',
+		linkToDrive: 'https://drive.google.com/drive/folders/1i7167_O7jUcDO3lUvYsDfmOQeQYaJf5p?usp=drive_link',
 	},
 	{
 		name: 'Prisma',
-		linkToDrive: 'a',
+		linkToDrive: 'https://drive.google.com/drive/folders/1kjywcBN7IlcSmKiKH4RhXgwoxmFFruZU?usp=drive_link',
 	},
 ];
 
 export const pythonMenus = [
 	{
 		name: 'Kafka - Python',
-		linkToDrive: 'a',
+		linkToDrive: 'https://docs.google.com/document/d/14vTIK3TQQZee8_KV4SAdp6cnDXvZK2kY/edit?usp=drive_link&ouid=105054910257021670270&rtpof=true&sd=true',
 	},
     {
         name:'setup',

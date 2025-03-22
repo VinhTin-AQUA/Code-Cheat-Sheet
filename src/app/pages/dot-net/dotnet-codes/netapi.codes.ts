@@ -32,13 +32,13 @@ export const netapiCodes = [
 		id: 'dang-nhap-gg-api',
 		name: 'Đăng nhập GG API',
 		language: 'csharp',
-		linkToDrive: 'aaa',
+		linkToDrive: 'https://docs.google.com/document/d/1kS5BcH1rPvUwt9g_3a7yEByGZnbbtHQf/edit?usp=drive_link&ouid=105054910257021670270&rtpof=true&sd=true',
 	},
 	{
 		id: 'dich-vu-gui-mail-api',
 		name: 'Dịch vụ gửi mail API',
 		language: 'csharp',
-		linkToDrive: 'aaa',
+		linkToDrive: 'https://docs.google.com/document/d/1Pquj89r1tfrsBhmYxkJ05qAyjO1bEt2l/edit?usp=drive_link&ouid=105054910257021670270&rtpof=true&sd=true',
 	},
 	{
 		id: 'enable-cors',
@@ -170,12 +170,12 @@ Install-Package System.IdentityModel.Tokens.Jwt
 		id: 'khac-phuc-spam-api-bi-trung-du-lieu',
 		name: 'Khắc phục spam API bị trùng dữ liệu',
 		language: 'csharp',
-		linkToDrive: 'aaa',
+		linkToDrive: 'https://docs.google.com/document/d/1swSygsFf28ovTn1MeQzbvWljgmfjtq2G/edit?usp=drive_link&ouid=105054910257021670270&rtpof=true&sd=true',
 	},
 	{
 		id: 'upload-file-api',
 		name: 'Upload File API',
 		language: 'csharp',
-		linkToDrive: 'aaa',
+		linkToDrive: 'https://docs.google.com/document/d/1E-ECQ-zRYImbr8miNHnxS01WQoiwJT_T/edit?usp=drive_link&ouid=105054910257021670270&rtpof=true&sd=true',
 	},
 ];

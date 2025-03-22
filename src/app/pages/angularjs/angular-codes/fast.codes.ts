@@ -146,7 +146,7 @@ export const fastCodes = [
 	{
 		id: 'dark-mode',
 		name: 'Dark Mode',
-		linkToDrive: 'a',
+		linkToDrive: 'https://docs.google.com/document/d/1GNDLt08x9Sw71xv-XYe7UmwQiUVN75sK/edit?usp=drive_link&ouid=105054910257021670270&rtpof=true&sd=true',
 	},
 	{
 		id: 'debounce',
@@ -348,7 +348,7 @@ export const fastCodes = [
 	{
 		id: 'run-angular-app-with-ssl',
 		name: 'Run angular app with ssl',
-		linkToDrive: 'a',
+		linkToDrive: 'https://docs.google.com/document/d/1A0xyqwBMkq6gBh8GwQQp4oxxqDiErR1K/edit?usp=drive_link&ouid=105054910257021670270&rtpof=true&sd=true',
 	},
 	{
 		id: 'scroll-den-element-view-child',
@@ -444,12 +444,12 @@ export const fastCodes = [
 	{
 		id: 'thiet-lap-title-va-url-dong-theo-doi-tuong',
 		name: 'Thiết lập title và url động theo đối tượng',
-		linkToDrive: 'a',
+		linkToDrive: 'https://docs.google.com/document/d/110bk1gf_YX3R4JRSDimVK2SqkeEAnpT2/edit?usp=drive_link&ouid=105054910257021670270&rtpof=true&sd=true',
 	},
 	{
 		id: 'upload-files',
 		name: 'Upload files',
-		linkToDrive: 'a',
+		linkToDrive: 'https://docs.google.com/document/d/1rv3ILHFrYOkCpvjfphZEQCElFGw2GJn4/edit?usp=drive_link&ouid=105054910257021670270&rtpof=true&sd=true',
 	},
 	{
 		id: 'xoa-1-phan-tu-khoi-mang',
