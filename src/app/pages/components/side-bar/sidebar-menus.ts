@@ -476,5 +476,9 @@ export const pythonMenus = [
     {
         name:'Requirements',
         url: '/python/requirements'
+    },
+    {
+        name:'Fast codes',
+        url: '/python/fast-codes'
     }
 ];
