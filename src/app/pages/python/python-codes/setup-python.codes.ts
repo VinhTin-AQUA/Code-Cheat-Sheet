@@ -13,7 +13,7 @@ export const setupPython = [
             {
 				name: 'Linux',
 				language: 'shell',
-				code: `    python -m venv .venv
+				code: `    python3 -m venv .venv
     source .venv/bin/activate
     pip install -r requirements.txt`,
 			},
