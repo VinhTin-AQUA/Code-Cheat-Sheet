@@ -16,7 +16,7 @@ export const items = [
 	},
 	{
 		name: 'Docker',
-		url: '/docker/image-commands',
+		url: '/docker/docker-command',
 		color: '#2496ED',
 	},
 	{

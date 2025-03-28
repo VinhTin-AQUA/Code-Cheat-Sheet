@@ -1,4 +1,4 @@
-import { loginCodes } from "./login.codes";
+import { dockerCommandCodes } from "./docker-command.codes";
 import { containerCommandCodes } from "./container.codes";
 import { imageCommandCodes } from "./image.codes";
 import { dockerizeAngular } from "./dockerize-angular,codes";
@@ -16,7 +16,7 @@ import { dockerizeKafkaCodes } from "./dockerize-kafka.codes";
 export const dockerCodes = {
     'image-commands': imageCommandCodes,
     'container-commands': containerCommandCodes,
-    'login': loginCodes,
+    'docker-command': dockerCommandCodes,
     'docker-compose': dockercomposeCodes,
     'dockerize-angular' : dockerizeAngular,
     'dockerize-netcore' : dockerizeNetCodes,

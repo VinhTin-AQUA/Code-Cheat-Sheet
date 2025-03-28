@@ -207,8 +207,8 @@ export const botMenus = [
 
 export const dockerMenus = [
 	{
-		name: 'Login',
-		url: '/docker/login',
+		name: 'Docker command',
+		url: '/docker/docker-command',
 	},
 	{
 		name: 'Commands',
