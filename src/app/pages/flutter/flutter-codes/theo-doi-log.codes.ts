@@ -8,7 +8,11 @@ export const theoDoiLogReleaseCodes = [
             code: `    - build apk release và cài đặt trên thiết bị
     - Kết nối với thiết bị qua USB
     - trên vs code terminal chạy lệnh: flutter logs
-    - tiến hành dùng ứng dụng`
+    - tiến hành dùng ứng dụng
+    - Hoặc
+        adb devices
+        flutter run -d [deviceID] --release
+        flutter run -d fe969cfe --release`
         }],
 	},
 ];

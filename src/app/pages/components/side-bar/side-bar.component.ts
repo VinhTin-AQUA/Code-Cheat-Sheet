@@ -1,14 +1,9 @@
 import { CommonModule } from '@angular/common';
 import { Component, Input } from '@angular/core';
 import {
-	angularMenus,
-	botMenus,
 	dockerMenus,
-	dotnetMenus,
 	flutterMenus,
 	htmlMenus,
-	nestJSMenus,
-	nginxMenus,
 	ngrokMenus,
 	pythonMenus,
 } from './sidebar-menus';
@@ -34,7 +29,7 @@ export class SideBarComponent {
 	@Input() showSidebar: boolean = true;
 	@Input() menuType: string = 'dotnet';
 	show = true;
-	menus: any = dotnetMenus;
+	menus: any = htmlMenus;
 
 	constructor() {}
 
@@ -42,23 +37,11 @@ export class SideBarComponent {
 		this.checkSidebarInit();
 
 		switch (this.menuType) {
-			case 'dotnet':
-				this.menus = dotnetMenus;
-				break;
-			case 'angular':
-				this.menus = angularMenus;
-				break;
 			case 'html-css':
 				this.menus = htmlMenus;
 				break;
-			case 'bot':
-				this.menus = botMenus;
-				break;
 			case 'docker':
 				this.menus = dockerMenus;
-				break;
-			case 'nginx':
-				this.menus = nginxMenus;
 				break;
 			case 'ngrok':
 				this.menus = ngrokMenus;
@@ -66,14 +49,11 @@ export class SideBarComponent {
 			case 'flutter':
 				this.menus = flutterMenus;
 				break;
-			case 'nestjs':
-				this.menus = nestJSMenus;
-				break;
 			case 'python':
 				this.menus = pythonMenus;
 				break;
 			default:
-				this.menus = dotnetMenus;
+				this.menus = pythonMenus;
 		}
 
 		for (let i of this.menus) {

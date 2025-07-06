@@ -1,21 +1,25 @@
-import { biometricsCodes } from "./biometrics.codes";
-import { buildCodes } from "./build.codes";
-import { componentCodes } from "./components.codes";
-import { fastCodes } from "./fast-code.codes";
-import { firebaseDatabaseCodes } from "./firebase-database.codes";
-import { flutterSecureStorageCodes } from "./flutter_secure_storage.codes";
-import { navigatorCodes } from "./navigator.codes";
-import { permissionCodes } from "./permission.codes";
-import { theoDoiLogReleaseCodes } from "./theo-doi-log.codes";
+import { buttonWithIcon } from './button-with-icon';
+import { loadingDialog } from './loading_dialog';
+import { menuBottomBar } from './menu_bottom_bar';
+import { passwordInput } from './password_input';
+import { searchBar } from './search_bar';
+import { showDeleteDialog } from './show_delete_dialog';
+import { showNoticeDialog } from './show_notice_dialog';
+import { button } from './t_button';
+import { textArea } from './text_area';
+import { textInput } from './text_input';
+import { theoDoiLogReleaseCodes } from './theo-doi-log.codes';
 
 export const flutterCodes = {
-    'fast-code': fastCodes,
-    'components': componentCodes,
-    'navigator': navigatorCodes,
-    'build': buildCodes,
-    'biometrics': biometricsCodes,
-    'flutter_secure_storage': flutterSecureStorageCodes,
-    'firebase-database': firebaseDatabaseCodes,
-    'theo-doi-log-release': theoDoiLogReleaseCodes,
-    'permission': permissionCodes,
-}
+	'theo-doi-log-release': theoDoiLogReleaseCodes,
+	'button-with-icon': buttonWithIcon,
+	'loading-dialog': loadingDialog,
+	'menu-bottom-bar': menuBottomBar,
+	'password-input': passwordInput,
+    'searchbar': searchBar,
+    'show-delete-dialog': showDeleteDialog,
+    'show-notice-dialog': showNoticeDialog,
+    'button': button,
+    'text-area': textArea,
+    'text-input': textInput,
+};
