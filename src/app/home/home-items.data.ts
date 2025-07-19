@@ -6,7 +6,7 @@ export const items = [
 	},
 	{
 		name: 'Flutter',
-		url: '/flutter/fast-code',
+		url: '/flutter/theo-doi-log-release',
 		color: '#02569B',
 	},
 	{
